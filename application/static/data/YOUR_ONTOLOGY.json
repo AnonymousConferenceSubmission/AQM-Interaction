@@ -1,0 +1,1453 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.7), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "en", "undefined" ],
+    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema" ],
+    "prefixList" : {
+      "owl" : "http://www.w3.org/2002/07/owl#",
+      "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "xsd" : "http://www.w3.org/2001/XMLSchema#",
+      "" : "http://www.semanticweb.org/owl/owlapi/turtle#",
+      "xml" : "http://www.w3.org/XML/1998/namespace",
+      "ns1" : "http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#",
+      "rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+    },
+    "iri" : "No IRI set"
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "0",
+    "type" : "owl:Class"
+  }, {
+    "id" : "7",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "3",
+    "type" : "owl:Class"
+  }, {
+    "id" : "17",
+    "type" : "owl:Class"
+  }, {
+    "id" : "19",
+    "type" : "owl:Class"
+  }, {
+    "id" : "21",
+    "type" : "owl:Class"
+  }, {
+    "id" : "22",
+    "type" : "owl:Class"
+  }, {
+    "id" : "8",
+    "type" : "owl:Class"
+  }, {
+    "id" : "9",
+    "type" : "owl:Class"
+  }, {
+    "id" : "11",
+    "type" : "owl:Class"
+  }, {
+    "id" : "15",
+    "type" : "owl:Class"
+  }, {
+    "id" : "16",
+    "type" : "owl:Class"
+  }, {
+    "id" : "20",
+    "type" : "owl:Class"
+  }, {
+    "id" : "10",
+    "type" : "owl:Class"
+  }, {
+    "id" : "12",
+    "type" : "owl:Class"
+  }, {
+    "id" : "13",
+    "type" : "owl:Class"
+  }, {
+    "id" : "6",
+    "type" : "owl:Class"
+  }, {
+    "id" : "30",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "14",
+    "type" : "owl:Class"
+  }, {
+    "id" : "18",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[ECSS-Q-HB-80-04C]_Q01_S",
+    "baseIri" : "http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics",
+    "instances" : 0,
+    "annotations" : {
+      "Description" : [ {
+        "identifier" : "Description",
+        "language" : "en",
+        "value" : "\"The capability of the software product to provide functions which meet stated and implied needs when the software is used under specified conditions.\" Taken from ISO 9126, SPEC.",
+        "type" : "label"
+      } ],
+      "PractitionersInvolved" : [ {
+        "identifier" : "PractitionersInvolved",
+        "language" : "undefined",
+        "value" : "true",
+        "type" : "label"
+      } ],
+      "Source" : [ {
+        "identifier" : "Source",
+        "language" : "en",
+        "value" : "[ECSS-Q-HB-80-04C]",
+        "type" : "label"
+      } ],
+      "EmpiricalEvidence" : [ {
+        "identifier" : "EmpiricalEvidence",
+        "language" : "undefined",
+        "value" : "false",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "[ECSS-Q-HB-80-04C]_Q01_S",
+      "en" : "Functionality"
+    },
+    "attributes" : [ "external" ],
+    "id" : "0",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[ECSS-Q-HB-80-04C]_Q05_S",
+    "baseIri" : "http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics",
+    "instances" : 0,
+    "annotations" : {
+      "Description" : [ {
+        "identifier" : "Description",
+        "language" : "en",
+        "value" : "\"The capability of the software product to maintain a specified level of performance when used under specified conditions.\" Taken from ISO 9126, SPEC.",
+        "type" : "label"
+      } ],
+      "PractitionersInvolved" : [ {
+        "identifier" : "PractitionersInvolved",
+        "language" : "undefined",
+        "value" : "true",
+        "type" : "label"
+      } ],
+      "Source" : [ {
+        "identifier" : "Source",
+        "language" : "en",
+        "value" : "[ECSS-Q-HB-80-04C]",
+        "type" : "label"
+      } ],
+      "EmpiricalEvidence" : [ {
+        "identifier" : "EmpiricalEvidence",
+        "language" : "undefined",
+        "value" : "false",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "[ECSS-Q-HB-80-04C]_Q05_S",
+      "en" : "Reliability"
+    },
+    "attributes" : [ "external" ],
+    "id" : "7",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#Construct",
+    "baseIri" : "http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Construct"
+    },
+    "subClasses" : [ "0", "8", "9", "10", "11", "12", "7", "13", "14", "15", "6", "3", "16", "17", "18", "19", "20", "21", "22" ],
+    "attributes" : [ "external" ],
+    "id" : "1"
+  }, {
+    "iri" : "http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[ECSS-Q-HB-80-04C]_Q03_C",
+    "baseIri" : "http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics",
+    "instances" : 0,
+    "annotations" : {
+      "Description" : [ {
+        "identifier" : "Description",
+        "language" : "en",
+        "value" : "\"The degree to which a system or component is free of faults in ist specification, design and implementation\". Taken from ISO 24765, SPEC.",
+        "type" : "label"
+      } ],
+      "Scope" : [ {
+        "identifier" : "Scope",
+        "language" : "undefined",
+        "value" : "Document",
+        "type" : "label"
+      } ],
+      "PractitionersInvolved" : [ {
+        "identifier" : "PractitionersInvolved",
+        "language" : "undefined",
+        "value" : "true",
+        "type" : "label"
+      } ],
+      "LingusticComplexity" : [ {
+        "identifier" : "LingusticComplexity",
+        "language" : "undefined",
+        "value" : "Pragmatic",
+        "type" : "label"
+      } ],
+      "Source" : [ {
+        "identifier" : "Source",
+        "language" : "en",
+        "value" : "[ECSS-Q-HB-80-04C]",
+        "type" : "label"
+      } ],
+      "EmpiricalEvidence" : [ {
+        "identifier" : "EmpiricalEvidence",
+        "language" : "undefined",
+        "value" : "false",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "[ECSS-Q-HB-80-04C]_Q03_C",
+      "en" : "Correctness"
+    },
+    "attributes" : [ "external" ],
+    "id" : "3",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[BBG+06]_Q131_Me",
+    "baseIri" : "http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics",
+    "instances" : 0,
+    "annotations" : {
+      "Description" : [ {
+        "identifier" : "Description",
+        "language" : "en",
+        "value" : "\"the lack of missing information in the natural language requirements specification at hand\"",
+        "type" : "label"
+      } ],
+      "Scope" : [ {
+        "identifier" : "Scope",
+        "language" : "undefined",
+        "value" : "Document",
+        "type" : "label"
+      } ],
+      "PractitionersInvolved" : [ {
+        "identifier" : "PractitionersInvolved",
+        "language" : "undefined",
+        "value" : "false",
+        "type" : "label"
+      } ],
+      "LingusticComplexity" : [ {
+        "identifier" : "LingusticComplexity",
+        "language" : "undefined",
+        "value" : "Pragmatic",
+        "type" : "label"
+      } ],
+      "Source" : [ {
+        "identifier" : "Source",
+        "language" : "en",
+        "value" : "[BBG+06]",
+        "type" : "label"
+      } ],
+      "EmpiricalEvidence" : [ {
+        "identifier" : "EmpiricalEvidence",
+        "language" : "undefined",
+        "value" : "false",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "[BBG+06]_Q131_Me",
+      "en" : "Completeness"
+    },
+    "attributes" : [ "external" ],
+    "id" : "17",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[ECSS-Q-HB-80-04C]_Q09_C",
+    "baseIri" : "http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics",
+    "instances" : 0,
+    "annotations" : {
+      "Context" : [ {
+        "identifier" : "Context",
+        "language" : "undefined",
+        "value" : "All development phases",
+        "type" : "label"
+      } ],
+      "Description" : [ {
+        "identifier" : "Description",
+        "language" : "en",
+        "value" : "\"The capability of the software development process to asses the quality in the management of the process in a specified context of use.\"",
+        "type" : "label"
+      } ],
+      "Scope" : [ {
+        "identifier" : "Scope",
+        "language" : "undefined",
+        "value" : "Global",
+        "type" : "label"
+      } ],
+      "Viewpoint" : [ {
+        "identifier" : "Viewpoint",
+        "language" : "undefined",
+        "value" : "Development team and SW Product Assurance manager",
+        "type" : "label"
+      } ],
+      "PractitionersInvolved" : [ {
+        "identifier" : "PractitionersInvolved",
+        "language" : "undefined",
+        "value" : "true",
+        "type" : "label"
+      } ],
+      "Source" : [ {
+        "identifier" : "Source",
+        "language" : "en",
+        "value" : "[ECSS-Q-HB-80-04C]",
+        "type" : "label"
+      } ],
+      "EmpiricalEvidence" : [ {
+        "identifier" : "EmpiricalEvidence",
+        "language" : "undefined",
+        "value" : "false",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "[ECSS-Q-HB-80-04C]_Q09_C",
+      "en" : "Project Management Effectiveness"
+    },
+    "attributes" : [ "external" ],
+    "id" : "19",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[DOJ+93]_Q83_Me",
+    "baseIri" : "http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics",
+    "instances" : 0,
+    "annotations" : {
+      "Description" : [ {
+        "identifier" : "Description",
+        "language" : "en",
+        "value" : "\"An SRS is verifiable if there exist finite, cost effective techniques that can be used to verify that every requirement stated therein is satisfied by the system as built.\"",
+        "type" : "label"
+      } ],
+      "Scope" : [ {
+        "identifier" : "Scope",
+        "language" : "undefined",
+        "value" : "Document",
+        "type" : "label"
+      } ],
+      "PractitionersInvolved" : [ {
+        "identifier" : "PractitionersInvolved",
+        "language" : "undefined",
+        "value" : "false",
+        "type" : "label"
+      } ],
+      "LingusticComplexity" : [ {
+        "identifier" : "LingusticComplexity",
+        "language" : "undefined",
+        "value" : "Pragmatic",
+        "type" : "label"
+      } ],
+      "Source" : [ {
+        "identifier" : "Source",
+        "language" : "en",
+        "value" : "[DOJ+93]",
+        "type" : "label"
+      } ],
+      "EmpiricalEvidence" : [ {
+        "identifier" : "EmpiricalEvidence",
+        "language" : "undefined",
+        "value" : "false",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "[DOJ+93]_Q83_Me",
+      "en" : "Verifiable"
+    },
+    "attributes" : [ "external" ],
+    "id" : "21",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[ECSS-Q-HB-80-04C]_Q07_C",
+    "baseIri" : "http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics",
+    "instances" : 0,
+    "annotations" : {
+      "Context" : [ {
+        "identifier" : "Context",
+        "language" : "undefined",
+        "value" : "SW V&V Process",
+        "type" : "label"
+      } ],
+      "Description" : [ {
+        "identifier" : "Description",
+        "language" : "en",
+        "value" : "\"Extent to which an objective and feasible test can be designed to determine whether a requirement is met.\" Taken from ISO 24765.",
+        "type" : "label"
+      } ],
+      "Scope" : [ {
+        "identifier" : "Scope",
+        "language" : "undefined",
+        "value" : "Document",
+        "type" : "label"
+      } ],
+      "Viewpoint" : [ {
+        "identifier" : "Viewpoint",
+        "language" : "undefined",
+        "value" : "Development team, SW Product Assurance manager, V&V team.",
+        "type" : "label"
+      } ],
+      "PractitionersInvolved" : [ {
+        "identifier" : "PractitionersInvolved",
+        "language" : "undefined",
+        "value" : "true",
+        "type" : "label"
+      } ],
+      "LingusticComplexity" : [ {
+        "identifier" : "LingusticComplexity",
+        "language" : "undefined",
+        "value" : "Pragmatic",
+        "type" : "label"
+      } ],
+      "Source" : [ {
+        "identifier" : "Source",
+        "language" : "en",
+        "value" : "[ECSS-Q-HB-80-04C]",
+        "type" : "label"
+      } ],
+      "EmpiricalEvidence" : [ {
+        "identifier" : "EmpiricalEvidence",
+        "language" : "undefined",
+        "value" : "false",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "[ECSS-Q-HB-80-04C]_Q07_C",
+      "en" : "Testability"
+    },
+    "attributes" : [ "external" ],
+    "id" : "22",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[ISO/IEC/IEEE29148:2018]_Q111_Me",
+    "baseIri" : "http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics",
+    "instances" : 0,
+    "annotations" : {
+      "Description" : [ {
+        "identifier" : "Description",
+        "language" : "en",
+        "value" : "\"The set of requirements stands alone such that it sufficiently describes the necessary capabilities, characteristics, constraints or quality factors to meet entity needs without needing further information. In addition, the set does not contain any To Be Defined (TBD), To Be Specified (TBS), or To Be Resolved (TBR) clauses. Resolution of the TBx designations may be iterative and there is an acceptable timeframe for TBx items, determined by risks and dependencies. To improve completeness, the following practices can be adopted:\ni) include all requirements types relevant to the system under consideration;\nii) account for requirements in all stages of the life cycle; and\niii) involve all stakeholders in the requirements elicitation, capture, and analysis activity.\"",
+        "type" : "label"
+      } ],
+      "Scope" : [ {
+        "identifier" : "Scope",
+        "language" : "undefined",
+        "value" : "Section",
+        "type" : "label"
+      } ],
+      "Viewpoint" : [ {
+        "identifier" : "Viewpoint",
+        "language" : "undefined",
+        "value" : "All stakeholders",
+        "type" : "label"
+      } ],
+      "PractitionersInvolved" : [ {
+        "identifier" : "PractitionersInvolved",
+        "language" : "undefined",
+        "value" : "true",
+        "type" : "label"
+      } ],
+      "LingusticComplexity" : [ {
+        "identifier" : "LingusticComplexity",
+        "language" : "undefined",
+        "value" : "Pragmatic",
+        "type" : "label"
+      } ],
+      "Source" : [ {
+        "identifier" : "Source",
+        "language" : "en",
+        "value" : "[ISO/IEC/IEEE29148:2018]",
+        "type" : "label"
+      } ],
+      "EmpiricalEvidence" : [ {
+        "identifier" : "EmpiricalEvidence",
+        "language" : "undefined",
+        "value" : "false",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "[ISO/IEC/IEEE29148:2018]_Q111_Me",
+      "en" : "Complete"
+    },
+    "attributes" : [ "external" ],
+    "id" : "8",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[TA15]_Q57_S",
+    "baseIri" : "http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics",
+    "instances" : 0,
+    "annotations" : {
+      "Description" : [ {
+        "identifier" : "Description",
+        "language" : "en",
+        "value" : "\"An SRS is verifiable if, and only if, every requirement stated therein is verifiable. A requirement is verifiable if, and only if, there exists some finite cost-effective process with which a person or machine can check that the software product meets the requirement. In general, any ambiguous requirement is not verifiable [7]. As IEEE Std. 830-1998 explains, requirements are not verifiable if they are ambiguous.\"",
+        "type" : "label"
+      } ],
+      "Scope" : [ {
+        "identifier" : "Scope",
+        "language" : "undefined",
+        "value" : "Document",
+        "type" : "label"
+      } ],
+      "PractitionersInvolved" : [ {
+        "identifier" : "PractitionersInvolved",
+        "language" : "undefined",
+        "value" : "false",
+        "type" : "label"
+      } ],
+      "LingusticComplexity" : [ {
+        "identifier" : "LingusticComplexity",
+        "language" : "undefined",
+        "value" : "pragmatic",
+        "type" : "label"
+      } ],
+      "Source" : [ {
+        "identifier" : "Source",
+        "language" : "en",
+        "value" : "[TA15]",
+        "type" : "label"
+      } ],
+      "EmpiricalEvidence" : [ {
+        "identifier" : "EmpiricalEvidence",
+        "language" : "undefined",
+        "value" : "true",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "[TA15]_Q57_S",
+      "en" : "Verifiable"
+    },
+    "attributes" : [ "external" ],
+    "id" : "9",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[Gli20]_Q151_",
+    "baseIri" : "http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics",
+    "instances" : 0,
+    "annotations" : {
+      "Description" : [ {
+        "identifier" : "Description",
+        "language" : "undefined",
+        "value" : "Multiple requirements: \"the work product contains all relevant requirements (functional requirements, quality requirements, and constraints) that are known at this point in time and that are related to this work product.\"",
+        "type" : "label"
+      } ],
+      "Scope" : [ {
+        "identifier" : "Scope",
+        "language" : "undefined",
+        "value" : "Section",
+        "type" : "label"
+      } ],
+      "PractitionersInvolved" : [ {
+        "identifier" : "PractitionersInvolved",
+        "language" : "undefined",
+        "value" : "false",
+        "type" : "label"
+      } ],
+      "LingusticComplexity" : [ {
+        "identifier" : "LingusticComplexity",
+        "language" : "undefined",
+        "value" : "Pragmatic",
+        "type" : "label"
+      } ],
+      "Source" : [ {
+        "identifier" : "Source",
+        "language" : "en",
+        "value" : "[GLSB20]",
+        "type" : "label"
+      } ],
+      "EmpiricalEvidence" : [ {
+        "identifier" : "EmpiricalEvidence",
+        "language" : "undefined",
+        "value" : "false",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "[Gli20]_Q151_",
+      "undefined" : "Complete"
+    },
+    "attributes" : [ "external" ],
+    "id" : "11",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[DOJ+93]_Q80_Me",
+    "baseIri" : "http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics",
+    "instances" : 0,
+    "annotations" : {
+      "Description" : [ {
+        "identifier" : "Description",
+        "language" : "en",
+        "value" : "\"An SRS is complete if: Everything that the software is supposed to do is included in the SRS [DAV93]; Responses of the software to all realizable classes of input data in all realizable classes of situations is included [IEE84]; All pages numbered; all figures and tables numbered, named, and referenced, all terms defined, all units of measure provided, and all referenced material present [IEE84]; No sections marked \"To Be Determined\" [DAV93].\"",
+        "type" : "label"
+      } ],
+      "Scope" : [ {
+        "identifier" : "Scope",
+        "language" : "undefined",
+        "value" : "Document",
+        "type" : "label"
+      } ],
+      "PractitionersInvolved" : [ {
+        "identifier" : "PractitionersInvolved",
+        "language" : "undefined",
+        "value" : "false",
+        "type" : "label"
+      } ],
+      "LingusticComplexity" : [ {
+        "identifier" : "LingusticComplexity",
+        "language" : "undefined",
+        "value" : "Pragmatic",
+        "type" : "label"
+      } ],
+      "Source" : [ {
+        "identifier" : "Source",
+        "language" : "en",
+        "value" : "[DOJ+93]",
+        "type" : "label"
+      } ],
+      "EmpiricalEvidence" : [ {
+        "identifier" : "EmpiricalEvidence",
+        "language" : "undefined",
+        "value" : "false",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "[DOJ+93]_Q80_Me",
+      "en" : "Complete"
+    },
+    "attributes" : [ "external" ],
+    "id" : "15",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[TA15]_Q65_S",
+    "baseIri" : "http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics",
+    "instances" : 0,
+    "annotations" : {
+      "Description" : [ {
+        "identifier" : "Description",
+        "language" : "en",
+        "value" : "\"An SRS is complete if, and only if, it includes the following elements [7]: All significant requirements, whether relating to functionality, performance, design constraints, attributes, or external interfaces; Definition of the responses of the software to all realizable classes of input data in all realizable situations; Full labels and references to all figures, tables, and diagrams in the SRS and definition of all terms and units of measure;\"",
+        "type" : "label"
+      } ],
+      "Scope" : [ {
+        "identifier" : "Scope",
+        "language" : "undefined",
+        "value" : "Document",
+        "type" : "label"
+      } ],
+      "PractitionersInvolved" : [ {
+        "identifier" : "PractitionersInvolved",
+        "language" : "undefined",
+        "value" : "false",
+        "type" : "label"
+      } ],
+      "LingusticComplexity" : [ {
+        "identifier" : "LingusticComplexity",
+        "language" : "undefined",
+        "value" : "Pragmatic",
+        "type" : "label"
+      } ],
+      "Source" : [ {
+        "identifier" : "Source",
+        "language" : "en",
+        "value" : "[TA15]",
+        "type" : "label"
+      } ],
+      "EmpiricalEvidence" : [ {
+        "identifier" : "EmpiricalEvidence",
+        "language" : "undefined",
+        "value" : "true",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "[TA15]_Q65_S",
+      "en" : "Complete"
+    },
+    "attributes" : [ "external" ],
+    "id" : "16",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[BBG+06]_Q129_Me",
+    "baseIri" : "http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics",
+    "instances" : 0,
+    "annotations" : {
+      "Description" : [ {
+        "identifier" : "Description",
+        "language" : "en",
+        "value" : "\"the ability to test that a CBS implements what is specified in the natural language requirements specification at hand\"",
+        "type" : "label"
+      } ],
+      "Scope" : [ {
+        "identifier" : "Scope",
+        "language" : "undefined",
+        "value" : "Document",
+        "type" : "label"
+      } ],
+      "PractitionersInvolved" : [ {
+        "identifier" : "PractitionersInvolved",
+        "language" : "undefined",
+        "value" : "false",
+        "type" : "label"
+      } ],
+      "LingusticComplexity" : [ {
+        "identifier" : "LingusticComplexity",
+        "language" : "undefined",
+        "value" : "Pragmatic",
+        "type" : "label"
+      } ],
+      "Source" : [ {
+        "identifier" : "Source",
+        "language" : "en",
+        "value" : "[BBG+06]",
+        "type" : "label"
+      } ],
+      "EmpiricalEvidence" : [ {
+        "identifier" : "EmpiricalEvidence",
+        "language" : "undefined",
+        "value" : "false",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "[BBG+06]_Q129_Me",
+      "en" : "Testability"
+    },
+    "attributes" : [ "external" ],
+    "id" : "20",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[ECSS-Q-HB-80-04C]_Q08_S",
+    "baseIri" : "http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics",
+    "instances" : 0,
+    "annotations" : {
+      "Description" : [ {
+        "identifier" : "Description",
+        "language" : "en",
+        "value" : "\"Extent to which planned activities are realized and planned results achieved.\"",
+        "type" : "label"
+      } ],
+      "Scope" : [ {
+        "identifier" : "Scope",
+        "language" : "undefined",
+        "value" : "Global",
+        "type" : "label"
+      } ],
+      "PractitionersInvolved" : [ {
+        "identifier" : "PractitionersInvolved",
+        "language" : "undefined",
+        "value" : "true",
+        "type" : "label"
+      } ],
+      "Source" : [ {
+        "identifier" : "Source",
+        "language" : "en",
+        "value" : "[ECSS-Q-HB-80-04C]",
+        "type" : "label"
+      } ],
+      "EmpiricalEvidence" : [ {
+        "identifier" : "EmpiricalEvidence",
+        "language" : "undefined",
+        "value" : "false",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "[ECSS-Q-HB-80-04C]_Q08_S",
+      "en" : "Software Development Effectiveness"
+    },
+    "attributes" : [ "external" ],
+    "id" : "10",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[ECSS-Q-HB-80-04C]_Q04_S",
+    "baseIri" : "http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics",
+    "instances" : 0,
+    "annotations" : {
+      "Description" : [ {
+        "identifier" : "Description",
+        "language" : "en",
+        "value" : "\"The ability of an item under given conditions of use, to be retained in, or restored to, a state in which it can perform a required function, when maintenance is performed under given conditions and using stated procedures and resources.\"",
+        "type" : "label"
+      } ],
+      "PractitionersInvolved" : [ {
+        "identifier" : "PractitionersInvolved",
+        "language" : "undefined",
+        "value" : "true",
+        "type" : "label"
+      } ],
+      "Source" : [ {
+        "identifier" : "Source",
+        "language" : "en",
+        "value" : "[ECSS-Q-HB-80-04C]",
+        "type" : "label"
+      } ],
+      "EmpiricalEvidence" : [ {
+        "identifier" : "EmpiricalEvidence",
+        "language" : "undefined",
+        "value" : "false",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "[ECSS-Q-HB-80-04C]_Q04_S",
+      "en" : "Maintainability"
+    },
+    "attributes" : [ "external" ],
+    "id" : "12",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[ECSS-Q-HB-80-04C]_Q06_S",
+    "baseIri" : "http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics",
+    "instances" : 0,
+    "annotations" : {
+      "Description" : [ {
+        "identifier" : "Description",
+        "language" : "en",
+        "value" : "\"System state where an acceptable level of risk with respect to fatality, injury or occupational illness, damage to launcher hardware or launch site facilities, damage to an element of an interfacing manned flight system, the main functions of a flight system itself, pollution of the environment, atmosphere or outer space, and damage to public or private property.\"",
+        "type" : "label"
+      } ],
+      "PractitionersInvolved" : [ {
+        "identifier" : "PractitionersInvolved",
+        "language" : "undefined",
+        "value" : "true",
+        "type" : "label"
+      } ],
+      "Source" : [ {
+        "identifier" : "Source",
+        "language" : "en",
+        "value" : "[ECSS-Q-HB-80-04C]",
+        "type" : "label"
+      } ],
+      "EmpiricalEvidence" : [ {
+        "identifier" : "EmpiricalEvidence",
+        "language" : "undefined",
+        "value" : "false",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "[ECSS-Q-HB-80-04C]_Q06_S",
+      "en" : "Suitability for Safety"
+    },
+    "attributes" : [ "external" ],
+    "id" : "13",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[ECSS-Q-HB-80-04C]_Q02_C",
+    "baseIri" : "http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics",
+    "instances" : 0,
+    "annotations" : {
+      "Description" : [ {
+        "identifier" : "Description",
+        "language" : "en",
+        "value" : "\"The capability of the software to provide full implementation of the functions required.\" Taken from SPEC.",
+        "type" : "label"
+      } ],
+      "Viewpoint" : [ {
+        "identifier" : "Viewpoint",
+        "language" : "undefined",
+        "value" : "Development team, SW Product Assurance manager, V&V team.",
+        "type" : "label"
+      } ],
+      "PractitionersInvolved" : [ {
+        "identifier" : "PractitionersInvolved",
+        "language" : "undefined",
+        "value" : "true",
+        "type" : "label"
+      } ],
+      "Source" : [ {
+        "identifier" : "Source",
+        "language" : "en",
+        "value" : "[ECSS-Q-HB-80-04C]",
+        "type" : "label"
+      } ],
+      "EmpiricalEvidence" : [ {
+        "identifier" : "EmpiricalEvidence",
+        "language" : "undefined",
+        "value" : "false",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "[ECSS-Q-HB-80-04C]_Q02_C",
+      "en" : "Completeness"
+    },
+    "attributes" : [ "external" ],
+    "id" : "6",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "30",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[Hal93]_Q116_A",
+    "baseIri" : "http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics",
+    "instances" : 0,
+    "annotations" : {
+      "Description" : [ {
+        "identifier" : "Description",
+        "language" : "en",
+        "value" : "\"Correctness refers to an absence of errors of fact in the statement of requirement.\"",
+        "type" : "label"
+      } ],
+      "Scope" : [ {
+        "identifier" : "Scope",
+        "language" : "undefined",
+        "value" : "Requirement",
+        "type" : "label"
+      } ],
+      "PractitionersInvolved" : [ {
+        "identifier" : "PractitionersInvolved",
+        "language" : "undefined",
+        "value" : "false",
+        "type" : "label"
+      } ],
+      "LingusticComplexity" : [ {
+        "identifier" : "LingusticComplexity",
+        "language" : "undefined",
+        "value" : "Pragmatic",
+        "type" : "label"
+      } ],
+      "Source" : [ {
+        "identifier" : "Source",
+        "language" : "en",
+        "value" : "[Hal93]",
+        "type" : "label"
+      } ],
+      "EmpiricalEvidence" : [ {
+        "identifier" : "EmpiricalEvidence",
+        "language" : "undefined",
+        "value" : "false",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "[Hal93]_Q116_A",
+      "en" : "Correctness"
+    },
+    "attributes" : [ "external" ],
+    "id" : "14",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[Bel12]_Q11_",
+    "baseIri" : "http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics",
+    "instances" : 0,
+    "annotations" : {
+      "Description" : [ {
+        "identifier" : "Description",
+        "language" : "en",
+        "value" : "\"When everything that the software is assumed to carry out is considered it may be said that we are facing a complete SRS [25]. The Institute of Electrical and Electronics Engineers (IEEE) standard 1233 states that a completed SRS should include all customer requirements, as well as those needed for the definition of the system. Moreover, it should have all pages, tables and figures numbered, all terms defined, all units provided and all referenced material present. Finally, it should not have any to be determined (TBD) sections [4].\"",
+        "type" : "label"
+      } ],
+      "Scope" : [ {
+        "identifier" : "Scope",
+        "language" : "undefined",
+        "value" : "Document",
+        "type" : "label"
+      } ],
+      "Viewpoint" : [ {
+        "identifier" : "Viewpoint",
+        "language" : "undefined",
+        "value" : "All people involved in the requirement specification process (on a people, organizational and technological dimension",
+        "type" : "label"
+      } ],
+      "PractitionersInvolved" : [ {
+        "identifier" : "PractitionersInvolved",
+        "language" : "undefined",
+        "value" : "false",
+        "type" : "label"
+      } ],
+      "LingusticComplexity" : [ {
+        "identifier" : "LingusticComplexity",
+        "language" : "undefined",
+        "value" : "Pragmatic",
+        "type" : "label"
+      } ],
+      "Source" : [ {
+        "identifier" : "Source",
+        "language" : "en",
+        "value" : "[Bel12]",
+        "type" : "label"
+      } ],
+      "EmpiricalEvidence" : [ {
+        "identifier" : "EmpiricalEvidence",
+        "language" : "undefined",
+        "value" : "false",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "[Bel12]_Q11_",
+      "en" : "Completeness"
+    },
+    "attributes" : [ "external" ],
+    "id" : "18",
+    "superClasses" : [ "1" ]
+  } ],
+  "property" : [ {
+    "id" : "2",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "5",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "23",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "25",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "26",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "27",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "28",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "29",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "4",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "37",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "38",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "39",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "40",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "41",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "32",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "42",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "33",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "43",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "44",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "45",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "46",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "47",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "48",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "49",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "24",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "59",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "34",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "35",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "50",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "52",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "31",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "53",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "54",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "57",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "58",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "51",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "55",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "56",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "36",
+    "type" : "owl:objectProperty"
+  } ],
+  "propertyAttribute" : [ {
+    "iri" : "http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[ECSS-Q-HB-80-04C]_Q01_S_C",
+    "baseIri" : "http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics",
+    "range" : "3",
+    "label" : {
+      "IRI-based" : "[ECSS-Q-HB-80-04C]_Q01_S_C",
+      "en" : "refines"
+    },
+    "superproperty" : [ "4" ],
+    "domain" : "0",
+    "attributes" : [ "object", "external" ],
+    "id" : "2"
+  }, {
+    "iri" : "http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[ECSS-Q-HB-80-04C]_Q01_S_B",
+    "baseIri" : "http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "[ECSS-Q-HB-80-04C]_Q01_S_B",
+      "en" : "refines"
+    },
+    "superproperty" : [ "4" ],
+    "domain" : "0",
+    "attributes" : [ "object", "external" ],
+    "id" : "5"
+  }, {
+    "iri" : "http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#E11_B",
+    "baseIri" : "http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics",
+    "range" : "22",
+    "label" : {
+      "IRI-based" : "E11_B",
+      "undefined" : "isEquivalent"
+    },
+    "superproperty" : [ "24" ],
+    "domain" : "20",
+    "attributes" : [ "object", "external", "transitive", "symmetric" ],
+    "id" : "23"
+  }, {
+    "range" : "1",
+    "domain" : "21",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "25"
+  }, {
+    "range" : "1",
+    "domain" : "20",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "26"
+  }, {
+    "range" : "1",
+    "domain" : "22",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "27"
+  }, {
+    "range" : "1",
+    "domain" : "17",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "28"
+  }, {
+    "range" : "1",
+    "domain" : "16",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "29"
+  }, {
+    "iri" : "http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#hasRefinementStructureC",
+    "baseIri" : "http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics",
+    "range" : "30",
+    "label" : {
+      "IRI-based" : "hasRefinementStructureC"
+    },
+    "domain" : "30",
+    "subproperty" : [ "31", "2", "5", "32", "33", "34", "35", "36" ],
+    "attributes" : [ "object", "external" ],
+    "id" : "4"
+  }, {
+    "range" : "1",
+    "domain" : "19",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "37"
+  }, {
+    "range" : "1",
+    "domain" : "18",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "38"
+  }, {
+    "range" : "1",
+    "domain" : "15",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "39"
+  }, {
+    "range" : "1",
+    "domain" : "3",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "40"
+  }, {
+    "range" : "1",
+    "domain" : "6",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "41"
+  }, {
+    "iri" : "http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[ECSS-Q-HB-80-04C]_Q05_S_B",
+    "baseIri" : "http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics",
+    "range" : "3",
+    "label" : {
+      "IRI-based" : "[ECSS-Q-HB-80-04C]_Q05_S_B",
+      "en" : "refines"
+    },
+    "superproperty" : [ "4" ],
+    "domain" : "7",
+    "attributes" : [ "object", "external" ],
+    "id" : "32"
+  }, {
+    "range" : "1",
+    "domain" : "8",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "42"
+  }, {
+    "iri" : "http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[ECSS-Q-HB-80-04C]_Q05_S_C",
+    "baseIri" : "http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics",
+    "range" : "22",
+    "label" : {
+      "IRI-based" : "[ECSS-Q-HB-80-04C]_Q05_S_C",
+      "en" : "refines"
+    },
+    "superproperty" : [ "4" ],
+    "domain" : "7",
+    "attributes" : [ "object", "external" ],
+    "id" : "33"
+  }, {
+    "range" : "1",
+    "domain" : "9",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "43"
+  }, {
+    "range" : "1",
+    "domain" : "10",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "44"
+  }, {
+    "range" : "1",
+    "domain" : "11",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "45"
+  }, {
+    "range" : "1",
+    "domain" : "12",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "46"
+  }, {
+    "range" : "1",
+    "domain" : "7",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "47"
+  }, {
+    "range" : "1",
+    "domain" : "13",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "48"
+  }, {
+    "range" : "1",
+    "domain" : "14",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "49"
+  }, {
+    "iri" : "http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#E01",
+    "baseIri" : "http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics",
+    "range" : "30",
+    "label" : {
+      "IRI-based" : "E01"
+    },
+    "domain" : "30",
+    "subproperty" : [ "50", "51", "52", "53", "54", "55", "56", "57", "58", "23" ],
+    "attributes" : [ "object", "external" ],
+    "id" : "24"
+  }, {
+    "range" : "1",
+    "domain" : "0",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "59"
+  }, {
+    "iri" : "http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[ECSS-Q-HB-80-04C]_Q04_S_C",
+    "baseIri" : "http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics",
+    "range" : "22",
+    "label" : {
+      "IRI-based" : "[ECSS-Q-HB-80-04C]_Q04_S_C",
+      "en" : "refines"
+    },
+    "superproperty" : [ "4" ],
+    "domain" : "12",
+    "attributes" : [ "object", "external" ],
+    "id" : "34"
+  }, {
+    "iri" : "http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[ECSS-Q-HB-80-04C]_Q04_S_B",
+    "baseIri" : "http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics",
+    "range" : "3",
+    "label" : {
+      "IRI-based" : "[ECSS-Q-HB-80-04C]_Q04_S_B",
+      "en" : "refines"
+    },
+    "superproperty" : [ "4" ],
+    "domain" : "12",
+    "attributes" : [ "object", "external" ],
+    "id" : "35"
+  }, {
+    "iri" : "http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#E11_AH",
+    "baseIri" : "http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics",
+    "range" : "22",
+    "label" : {
+      "IRI-based" : "E11_AH",
+      "undefined" : "isEquivalent"
+    },
+    "superproperty" : [ "24" ],
+    "domain" : "9",
+    "attributes" : [ "object", "external", "transitive", "symmetric" ],
+    "id" : "50"
+  }, {
+    "iri" : "http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#E02_R",
+    "baseIri" : "http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "E02_R",
+      "undefined" : "isEquivalent"
+    },
+    "superproperty" : [ "24" ],
+    "domain" : "17",
+    "attributes" : [ "object", "external", "transitive", "symmetric" ],
+    "id" : "52"
+  }, {
+    "iri" : "http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[ECSS-Q-HB-80-04C]_Q08_S_B",
+    "baseIri" : "http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics",
+    "range" : "19",
+    "label" : {
+      "IRI-based" : "[ECSS-Q-HB-80-04C]_Q08_S_B",
+      "en" : "refines"
+    },
+    "superproperty" : [ "4" ],
+    "domain" : "10",
+    "attributes" : [ "object", "external" ],
+    "id" : "31"
+  }, {
+    "iri" : "http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#E02_U",
+    "baseIri" : "http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "E02_U",
+      "undefined" : "isEquivalent"
+    },
+    "superproperty" : [ "24" ],
+    "domain" : "11",
+    "attributes" : [ "object", "external", "transitive", "symmetric" ],
+    "id" : "53"
+  }, {
+    "iri" : "http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#E11_AE",
+    "baseIri" : "http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics",
+    "range" : "22",
+    "label" : {
+      "IRI-based" : "E11_AE",
+      "undefined" : "isEquivalent"
+    },
+    "superproperty" : [ "24" ],
+    "domain" : "21",
+    "attributes" : [ "object", "external", "transitive", "symmetric" ],
+    "id" : "54"
+  }, {
+    "iri" : "http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#E02_J",
+    "baseIri" : "http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "E02_J",
+      "undefined" : "isEquivalent"
+    },
+    "superproperty" : [ "24" ],
+    "domain" : "8",
+    "attributes" : [ "object", "external" ],
+    "id" : "57"
+  }, {
+    "iri" : "http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#E02_M",
+    "baseIri" : "http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "E02_M",
+      "undefined" : "isEquivalent"
+    },
+    "superproperty" : [ "24" ],
+    "domain" : "16",
+    "attributes" : [ "object", "external", "transitive", "symmetric" ],
+    "id" : "58"
+  }, {
+    "iri" : "http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#E02_C",
+    "baseIri" : "http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "E02_C",
+      "undefined" : "isEquivalent"
+    },
+    "superproperty" : [ "24" ],
+    "domain" : "18",
+    "attributes" : [ "object", "external", "transitive", "symmetric" ],
+    "id" : "51"
+  }, {
+    "iri" : "http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#E25_B",
+    "baseIri" : "http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics",
+    "range" : "3",
+    "label" : {
+      "IRI-based" : "E25_B",
+      "undefined" : "isEquivalent"
+    },
+    "superproperty" : [ "24" ],
+    "domain" : "14",
+    "attributes" : [ "object", "external", "transitive", "symmetric" ],
+    "id" : "55"
+  }, {
+    "iri" : "http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#E02_G",
+    "baseIri" : "http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "E02_G",
+      "undefined" : "isEquivalent"
+    },
+    "superproperty" : [ "24" ],
+    "domain" : "15",
+    "attributes" : [ "object", "external", "transitive", "symmetric" ],
+    "id" : "56"
+  }, {
+    "iri" : "http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[ECSS-Q-HB-80-04C]_Q06_S_B",
+    "baseIri" : "http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics",
+    "range" : "3",
+    "label" : {
+      "IRI-based" : "[ECSS-Q-HB-80-04C]_Q06_S_B",
+      "en" : "refines"
+    },
+    "superproperty" : [ "4" ],
+    "domain" : "13",
+    "attributes" : [ "object", "external" ],
+    "id" : "36"
+  } ]
+}
