@@ -6,27 +6,6 @@
 		<!-- CSS based on getbootstrap.com -->
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-		<style>
-			.card {
-				margin-bottom: 10px;
-			}
-			
-			.aspectwrapper {
-			  display: inline-block; /* shrink to fit */
-			  width: 100%;           /* whatever width you like */
-			  position: relative;    /* so .content can use position: absolute */
-			}
-			.aspectwrapper::after {
-			  padding-top: 56.25%; /* percentage of containing block _width_ */
-			  display: block;
-			  content: '';
-			}
-			.content {
-			  position: absolute;
-			  top: 0; bottom: 0; right: 0; left: 0;  /* follow the parent's edges */
-			  outline: thin dashed green;            /* just so you can see the box */
-			}
-		</style>
 	</head>
 	<body>
 		<header>
@@ -73,17 +52,31 @@
 		</header>
 		
 		<div class="row">
-		  {% for source in sources %}
+		  {% for info in sourceInformation %}
 		  <div class="col-sm-6 mb-3 mb-sm-0">
 			<div class="card">
 			  <div class="card-body">
-				<h5 class="card-title">{{ source }}</h5>
-				<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+				{% for str in info %}
+					{% if loop.index == 1 %}
+					<h5 class="card-title">{{ str }}</h5>
+					{% endif %}
+					{% if loop.index == 2 %}
+					<p class="card-text">Author(s): {{ str }}</p>
+					{% endif %}
+					{% if loop.index == 3 %}
+					<p class="card-text">Year: {{ str }}</p>
+					{% endif %}
+					{% if loop.index == 4 %}
+					<p class="card-text">Link: {{ str }}</p>
+					{% endif %}
+					{% if loop.index == 5 %}
 					<div>
 						<form action="/getAQMSubgraphForConsensus" method="post">
-							<button class="btn btn-primary" name="{{ source }}" type="submit">Visualize</button>
+							<button class="btn btn-primary" name="{{ str }}" type="submit">Visualize</button>
 						</form>
 					</div>
+					{% endif %}
+				{% endfor %}
 			  </div>
 			</div>
 		  </div>
