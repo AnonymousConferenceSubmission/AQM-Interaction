@@ -997,6 +997,8 @@
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#E02_J">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#E01"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[ISO/IEC/IEEE29148:2018]_Q111_Me"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[ECSS-Q-HB-80-04C]_Q02_C"/>
         <rdfs:label>isEquivalent</rdfs:label>
@@ -4303,6 +4305,83 @@
         <rdfs:domain rdf:resource="http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[BBG+06]_Q132_Me"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#Measure"/>
         <rdfs:label xml:lang="en">hasPurpose</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[Bel12]_Q10_M_A -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[Bel12]_Q10_M_A">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#hasPurpose"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[Bel12]_Q10_"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#Measure"/>
+        <rdfs:label>hasPurpose</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[Bel12]_Q11_M_A -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[Bel12]_Q11_M_A">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#hasPurpose"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[Bel12]_Q11_"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#Measure"/>
+        <rdfs:label>hasPurpose</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[Bel12]_Q12_M_A -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[Bel12]_Q12_M_A">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#hasPurpose"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[Bel12]_Q12_"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#Measure"/>
+        <rdfs:label>hasPurpose</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[Bel12]_Q13_M_A -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[Bel12]_Q13_M_A">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#hasPurpose"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[Bel12]_Q13_"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#Measure"/>
+        <rdfs:label>hasPurpose</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[Bel12]_Q14_M_A -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[Bel12]_Q14_M_A">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#hasPurpose"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[Bel12]_Q14_"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#Measure"/>
+        <rdfs:label>hasPurpose</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[Bel12]_Q15_M_A -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[Bel12]_Q15_M_A">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#hasPurpose"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[Bel12]_Q15_"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#Measure"/>
+        <rdfs:label>hasPurpose</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[Bel12]_Q16_M_A -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[Bel12]_Q16_M_A">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#hasPurpose"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[Bel12]_Q16_"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#Measure"/>
+        <rdfs:label>hasPurpose</rdfs:label>
     </owl:ObjectProperty>
     
 
