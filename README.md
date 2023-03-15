@@ -26,8 +26,10 @@ Install the needed libaries (e.g. flask and rdflib) using pip, e.g.
 pip install -r dependencies.txt
 ```
 
-## Important Note
-The individually created AQM needs to be located in /XXXXX and must follow the conceptualization procedure from the paper. For demonstration purposes, the AQM from the case study of the paper was included in this repository.
+## Important Notes
+The individually created AQM needs to be located in the [data](application/static/data) and must follow the conceptualization procedure from the paper. For demonstration purposes, the AQM from the case study of the paper was included in this repository.
+
+In some browsers, the loaded subgraphs can be cached and different visualizations will not be shown. As a solution, disable caching for the "WebVOWL for AQM" page.
 
 ## Run the application
 Start the flask server
