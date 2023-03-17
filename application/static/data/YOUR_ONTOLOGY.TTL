@@ -1,546 +1,896 @@
-@prefix ns1: <http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#> .
+@prefix ns1: <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-ns1:E01_A rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[Bel12]_Q10_> .
-
-ns1:E01_AK a owl:ObjectProperty,
+ns1:E01_AP a owl:ObjectProperty,
         owl:SymmetricProperty,
         owl:TransitiveProperty ;
     rdfs:label "isEquivalent"@en ;
-    rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[TA15]_Q56_S> ;
-    rdfs:range <http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[Bel12]_Q10_> ;
-    rdfs:subPropertyOf ns1:E01 .
+    rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[TA15]_Q56_S> ;
+    rdfs:range <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[BBG+06]_Q128_Me> .
 
-ns1:E01_AS a owl:ObjectProperty,
+ns1:E01_AY a owl:ObjectProperty,
         owl:SymmetricProperty,
         owl:TransitiveProperty ;
     rdfs:label "isEquivalent"@en ;
-    rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[TA15]_Q62_Me> ;
-    rdfs:range <http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[Bel12]_Q10_> ;
-    rdfs:subPropertyOf ns1:E01 .
+    rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[TA15]_Q62_Me> ;
+    rdfs:range <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[BBG+06]_Q128_Me> .
 
 ns1:E01_BK a owl:ObjectProperty,
         owl:SymmetricProperty,
         owl:TransitiveProperty ;
     rdfs:label "isEquivalent"@en ;
-    rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[BBG+06]_Q128_Me> ;
-    rdfs:range <http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[Bel12]_Q10_> ;
-    rdfs:subPropertyOf ns1:E01 .
+    rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[BBG+06]_Q128_Me> ;
+    rdfs:range <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[Bel12]_Q10_> .
 
-ns1:E01_D rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[Bel12]_Q10_> .
-
-ns1:E01_E rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[Bel12]_Q10_> .
-
-ns1:E01_G rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[Bel12]_Q10_> .
-
-ns1:E01_J a owl:ObjectProperty,
+ns1:E01_BL a owl:ObjectProperty,
         owl:SymmetricProperty,
         owl:TransitiveProperty ;
     rdfs:label "isEquivalent"@en ;
-    rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[DOJ+93]_Q79_Me> ;
-    rdfs:range <http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[Bel12]_Q10_> ;
-    rdfs:subPropertyOf ns1:E01 .
+    rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[BBG+06]_Q128_Me> ;
+    rdfs:range <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[DOJ+93]_Q79_Me> .
 
-ns1:E02_A rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[Bel12]_Q11_> .
-
-ns1:E02_AT a owl:ObjectProperty,
-        owl:TransitiveProperty ;
-    rdfs:label "isEquivalent"@en ;
-    rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[ISO/IEC/IEEE29148:2018]_Q111_Me> ;
-    rdfs:range <http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[Bel12]_Q11_> ;
-    rdfs:subPropertyOf ns1:E01 .
-
-ns1:E02_B a owl:ObjectProperty,
-        owl:SymmetricProperty,
-        owl:TransitiveProperty ;
-    rdfs:label "isEquivalent" ;
-    rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[ECSS-Q-HB-80-04C]_Q02_C> ;
-    rdfs:range <http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[Bel12]_Q11_> ;
-    rdfs:subPropertyOf ns1:E01 .
-
-ns1:E02_BR a owl:ObjectProperty,
+ns1:E01_BO a owl:ObjectProperty,
         owl:SymmetricProperty,
         owl:TransitiveProperty ;
     rdfs:label "isEquivalent"@en ;
-    rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[TA15]_Q65_S> ;
-    rdfs:range <http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[Bel12]_Q11_> ;
-    rdfs:subPropertyOf ns1:E01 .
+    rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[BBG+06]_Q128_Me> ;
+    rdfs:range <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[TA15]_Q56_S> .
 
-ns1:E02_C rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[Bel12]_Q11_> .
+ns1:E01_BP a owl:ObjectProperty,
+        owl:SymmetricProperty,
+        owl:TransitiveProperty ;
+    rdfs:label "isEquivalent"@en ;
+    rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[BBG+06]_Q128_Me> ;
+    rdfs:range <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[TA15]_Q62_Me> .
+
+ns1:E01_G a owl:ObjectProperty,
+        owl:SymmetricProperty,
+        owl:TransitiveProperty ;
+    rdfs:label "isEquivalent"@en ;
+    rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[Bel12]_Q10_> ;
+    rdfs:range <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[BBG+06]_Q128_Me> .
+
+ns1:E01_P a owl:ObjectProperty,
+        owl:SymmetricProperty,
+        owl:TransitiveProperty ;
+    rdfs:label "isEquivalent"@en ;
+    rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[DOJ+93]_Q79_Me> ;
+    rdfs:range <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[BBG+06]_Q128_Me> .
+
+ns1:E02_BC a owl:ObjectProperty,
+        owl:SymmetricProperty,
+        owl:TransitiveProperty ;
+    rdfs:label "isEquivalent"@en ;
+    rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[ISO/IEC/IEEE29148:2018]_Q111_Me> ;
+    rdfs:range <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[BBG+06]_Q131_Me> .
+
+ns1:E02_BY a owl:ObjectProperty,
+        owl:SymmetricProperty,
+        owl:TransitiveProperty ;
+    rdfs:label "isEquivalent"@en ;
+    rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[TA15]_Q65_S> ;
+    rdfs:range <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[BBG+06]_Q131_Me> .
 
 ns1:E02_CN a owl:ObjectProperty,
         owl:SymmetricProperty,
         owl:TransitiveProperty ;
     rdfs:label "isEquivalent"@en ;
-    rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[BBG+06]_Q131_Me> ;
-    rdfs:range <http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[Bel12]_Q11_> ;
-    rdfs:subPropertyOf ns1:E01 .
+    rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[BBG+06]_Q131_Me> ;
+    rdfs:range <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[Bel12]_Q11_> .
 
-ns1:E02_D rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[Bel12]_Q11_> .
-
-ns1:E02_DU a owl:ObjectProperty,
+ns1:E02_CO a owl:ObjectProperty,
         owl:SymmetricProperty,
         owl:TransitiveProperty ;
     rdfs:label "isEquivalent"@en ;
-    rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[Gli20]_Q151_> ;
-    rdfs:range <http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[Bel12]_Q11_> ;
-    rdfs:subPropertyOf ns1:E01 .
+    rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[BBG+06]_Q131_Me> ;
+    rdfs:range <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[DOJ+93]_Q80_Me> .
 
-ns1:E02_F rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[Bel12]_Q11_> .
-
-ns1:E02_H rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[Bel12]_Q11_> .
-
-ns1:E02_K rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[Bel12]_Q11_> .
-
-ns1:E02_L a owl:ObjectProperty,
+ns1:E02_CR a owl:ObjectProperty,
         owl:SymmetricProperty,
         owl:TransitiveProperty ;
     rdfs:label "isEquivalent"@en ;
-    rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[DOJ+93]_Q80_Me> ;
-    rdfs:range <http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[Bel12]_Q11_> ;
-    rdfs:subPropertyOf ns1:E01 .
+    rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[BBG+06]_Q131_Me> ;
+    rdfs:range <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[ISO/IEC/IEEE29148:2018]_Q111_Me> .
 
-ns1:E03_A rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[Bel12]_Q12_> .
+ns1:E02_CT a owl:ObjectProperty,
+        owl:SymmetricProperty,
+        owl:TransitiveProperty ;
+    rdfs:label "isEquivalent"@en ;
+    rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[BBG+06]_Q131_Me> ;
+    rdfs:range <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[TA15]_Q65_S> .
 
-ns1:E03_AD a owl:ObjectProperty,
+ns1:E02_CX a owl:ObjectProperty,
+        owl:SymmetricProperty,
+        owl:TransitiveProperty ;
+    rdfs:label "isEquivalent"@en ;
+    rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[BBG+06]_Q131_Me> ;
+    rdfs:range <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[Gli20]_Q151_> .
+
+ns1:E02_EC a owl:ObjectProperty,
+        owl:SymmetricProperty,
+        owl:TransitiveProperty ;
+    rdfs:label "isEquivalent"@en ;
+    rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[Gli20]_Q151_> ;
+    rdfs:range <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[BBG+06]_Q131_Me> .
+
+ns1:E02_H a owl:ObjectProperty,
+        owl:SymmetricProperty,
+        owl:TransitiveProperty ;
+    rdfs:label "isEquivalent"@en ;
+    rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[Bel12]_Q11_> ;
+    rdfs:range <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[BBG+06]_Q131_Me> .
+
+ns1:E02_P a owl:ObjectProperty,
         owl:SymmetricProperty,
         owl:TransitiveProperty ;
     rdfs:label "isEquivalent" ;
-    rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[TA15]_Q52_Me> ;
-    rdfs:range <http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[Bel12]_Q12_> ;
-    rdfs:subPropertyOf ns1:E01 .
+    rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[ECSS-Q-HB-80-04C]_Q02_C> ;
+    rdfs:range <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[BBG+06]_Q131_Me> .
+
+ns1:E02_R a owl:ObjectProperty,
+        owl:SymmetricProperty,
+        owl:TransitiveProperty ;
+    rdfs:label "isEquivalent" ;
+    rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[BBG+06]_Q131_Me> ;
+    rdfs:range <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[ECSS-Q-HB-80-04C]_Q02_C> .
+
+ns1:E02_S a owl:ObjectProperty,
+        owl:SymmetricProperty,
+        owl:TransitiveProperty ;
+    rdfs:label "isEquivalent"@en ;
+    rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[DOJ+93]_Q80_Me> ;
+    rdfs:range <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[BBG+06]_Q131_Me> .
+
+ns1:E03_AH a owl:ObjectProperty,
+        owl:SymmetricProperty,
+        owl:TransitiveProperty ;
+    rdfs:label "isEquivalent" ;
+    rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[TA15]_Q52_Me> ;
+    rdfs:range <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[BBG+06]_Q132_Me> .
 
 ns1:E03_AK a owl:ObjectProperty,
         owl:SymmetricProperty,
         owl:TransitiveProperty ;
     rdfs:label "isEquivalent" ;
-    rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[BBG+06]_Q132_Me> ;
-    rdfs:range <http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[Bel12]_Q12_> ;
-    rdfs:subPropertyOf ns1:E01 .
+    rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[BBG+06]_Q132_Me> ;
+    rdfs:range <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[Bel12]_Q12_> .
 
-ns1:E03_AR a owl:ObjectProperty,
+ns1:E03_AL a owl:ObjectProperty,
         owl:SymmetricProperty,
         owl:TransitiveProperty ;
     rdfs:label "isEquivalent" ;
-    rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[HZ18]_Q135_S> ;
-    rdfs:range <http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[Bel12]_Q12_> ;
-    rdfs:subPropertyOf ns1:E01 .
+    rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[BBG+06]_Q132_Me> ;
+    rdfs:range <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[DOJ+93]_Q81_Me> .
 
-ns1:E03_D rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[Bel12]_Q12_> .
-
-ns1:E03_E rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[Bel12]_Q12_> .
-
-ns1:E03_F rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[Bel12]_Q12_> .
-
-ns1:E03_H a owl:ObjectProperty,
+ns1:E03_AO a owl:ObjectProperty,
         owl:SymmetricProperty,
         owl:TransitiveProperty ;
     rdfs:label "isEquivalent" ;
-    rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[DOJ+93]_Q81_Me> ;
-    rdfs:range <http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[Bel12]_Q12_> ;
-    rdfs:subPropertyOf ns1:E01 .
+    rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[BBG+06]_Q132_Me> ;
+    rdfs:range <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[TA15]_Q52_Me> .
 
-ns1:E04_A rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[Bel12]_Q13_> .
+ns1:E03_AP a owl:ObjectProperty,
+        owl:SymmetricProperty,
+        owl:TransitiveProperty ;
+    rdfs:label "isEquivalent" ;
+    rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[BBG+06]_Q132_Me> ;
+    rdfs:range <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[HZ18]_Q135_S> .
+
+ns1:E03_AW a owl:ObjectProperty,
+        owl:SymmetricProperty,
+        owl:TransitiveProperty ;
+    rdfs:label "isEquivalent" ;
+    rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[HZ18]_Q135_S> ;
+    rdfs:range <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[BBG+06]_Q132_Me> .
+
+ns1:E03_E a owl:ObjectProperty,
+        owl:SymmetricProperty,
+        owl:TransitiveProperty ;
+    rdfs:label "isEquivalent" ;
+    rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[Bel12]_Q12_> ;
+    rdfs:range <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[BBG+06]_Q132_Me> .
+
+ns1:E03_L a owl:ObjectProperty,
+        owl:SymmetricProperty,
+        owl:TransitiveProperty ;
+    rdfs:label "isEquivalent" ;
+    rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[DOJ+93]_Q81_Me> ;
+    rdfs:range <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[BBG+06]_Q132_Me> .
 
 ns1:E04_AC a owl:ObjectProperty,
         owl:SymmetricProperty,
         owl:TransitiveProperty ;
     rdfs:label "isEquivalent" ;
-    rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[BBG+06]_Q126_S> ;
-    rdfs:range <http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[Bel12]_Q13_> ;
-    rdfs:subPropertyOf ns1:E01 .
+    rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[BBG+06]_Q126_S> ;
+    rdfs:range <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[Bel12]_Q13_> .
+
+ns1:E04_AD a owl:ObjectProperty,
+        owl:SymmetricProperty,
+        owl:TransitiveProperty ;
+    rdfs:label "isEquivalent" ;
+    rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[BBG+06]_Q126_S> ;
+    rdfs:range <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[DOJ+93]_Q82_Me> .
+
+ns1:E04_AE a owl:ObjectProperty,
+        owl:SymmetricProperty,
+        owl:TransitiveProperty ;
+    rdfs:label "isEquivalent" ;
+    rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[BBG+06]_Q126_S> ;
+    rdfs:range <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[ISO/IEC/IEEE29148:2018]_Q114_Me> .
+
+ns1:E04_AG a owl:ObjectProperty,
+        owl:SymmetricProperty,
+        owl:TransitiveProperty ;
+    rdfs:label "isEquivalent" ;
+    rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[BBG+06]_Q126_S> ;
+    rdfs:range <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[BBG+06]_Q127_Me> .
+
+ns1:E04_AH a owl:ObjectProperty,
+        owl:SymmetricProperty,
+        owl:TransitiveProperty ;
+    rdfs:label "isEquivalent" ;
+    rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[BBG+06]_Q126_S> ;
+    rdfs:range <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[HZ18]_Q141_> .
 
 ns1:E04_AJ a owl:ObjectProperty,
         owl:SymmetricProperty,
         owl:TransitiveProperty ;
     rdfs:label "isEquivalent" ;
-    rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[BBG+06]_Q127_Me> ;
-    rdfs:range <http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[Bel12]_Q13_> ;
-    rdfs:subPropertyOf ns1:E01 .
+    rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[BBG+06]_Q127_Me> ;
+    rdfs:range <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[Bel12]_Q13_> .
 
-ns1:E04_AQ a owl:ObjectProperty,
+ns1:E04_AK a owl:ObjectProperty,
         owl:SymmetricProperty,
         owl:TransitiveProperty ;
     rdfs:label "isEquivalent" ;
-    rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[HZ18]_Q141_> ;
-    rdfs:range <http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[Bel12]_Q13_> ;
-    rdfs:subPropertyOf ns1:E01 .
+    rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[BBG+06]_Q127_Me> ;
+    rdfs:range <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[DOJ+93]_Q82_Me> .
 
-ns1:E04_B rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[Bel12]_Q13_> .
-
-ns1:E04_D rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[Bel12]_Q13_> .
-
-ns1:E04_E rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[Bel12]_Q13_> .
-
-ns1:E04_F rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[Bel12]_Q13_> .
-
-ns1:E04_H a owl:ObjectProperty,
+ns1:E04_AL a owl:ObjectProperty,
         owl:SymmetricProperty,
         owl:TransitiveProperty ;
     rdfs:label "isEquivalent" ;
-    rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[DOJ+93]_Q82_Me> ;
-    rdfs:range <http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[Bel12]_Q13_> ;
-    rdfs:subPropertyOf ns1:E01 .
+    rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[BBG+06]_Q127_Me> ;
+    rdfs:range <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[ISO/IEC/IEEE29148:2018]_Q114_Me> .
 
-ns1:E04_O a owl:ObjectProperty,
+ns1:E04_AN a owl:ObjectProperty,
         owl:SymmetricProperty,
         owl:TransitiveProperty ;
     rdfs:label "isEquivalent" ;
-    rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[ISO/IEC/IEEE29148:2018]_Q114_Me> ;
-    rdfs:range <http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[Bel12]_Q13_> ;
-    rdfs:subPropertyOf ns1:E01 .
+    rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[BBG+06]_Q127_Me> ;
+    rdfs:range <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[BBG+06]_Q126_S> .
 
-ns1:E07_A rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[Bel12]_Q16_> .
-
-ns1:E07_AD a owl:ObjectProperty,
+ns1:E04_AO a owl:ObjectProperty,
         owl:SymmetricProperty,
         owl:TransitiveProperty ;
     rdfs:label "isEquivalent" ;
-    rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[TA15]_Q78_Me> ;
-    rdfs:range <http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[Bel12]_Q16_> ;
-    rdfs:subPropertyOf ns1:E01 .
+    rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[BBG+06]_Q127_Me> ;
+    rdfs:range <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[HZ18]_Q141_> .
 
-ns1:E07_D rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[Bel12]_Q16_> .
-
-ns1:E07_E rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[Bel12]_Q16_> .
-
-ns1:E07_G a owl:ObjectProperty,
+ns1:E04_AU a owl:ObjectProperty,
         owl:SymmetricProperty,
         owl:TransitiveProperty ;
     rdfs:label "isEquivalent" ;
-    rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[DOJ+93]_Q86_Me> ;
-    rdfs:range <http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[Bel12]_Q16_> ;
-    rdfs:subPropertyOf ns1:E01 .
+    rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[ISO/IEC/IEEE29148:2018]_Q114_Me> ;
+    rdfs:range <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[BBG+06]_Q126_S> .
 
-ns1:E07_X a owl:ObjectProperty,
+ns1:E04_AV a owl:ObjectProperty,
         owl:SymmetricProperty,
         owl:TransitiveProperty ;
     rdfs:label "isEquivalent" ;
-    rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[ISO/IEC/IEEE29148:2018]_Q113_Me> ;
-    rdfs:range <http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[Bel12]_Q16_> ;
-    rdfs:subPropertyOf ns1:E01 .
+    rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[ISO/IEC/IEEE29148:2018]_Q114_Me> ;
+    rdfs:range <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[BBG+06]_Q127_Me> .
 
-ns1:E08_A rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[Bel12]_Q14_> .
-
-ns1:E08_B a owl:ObjectProperty,
+ns1:E04_D a owl:ObjectProperty,
         owl:SymmetricProperty,
         owl:TransitiveProperty ;
     rdfs:label "isEquivalent" ;
-    rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[ISO/IEC/IEEE29148:2018]_Q115_Me> ;
-    rdfs:range <http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[Bel12]_Q14_> ;
-    rdfs:subPropertyOf ns1:E01 .
+    rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[Bel12]_Q13_> ;
+    rdfs:range <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[BBG+06]_Q126_S> .
 
-<http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[Bel12]_Q15_> a owl:Class ;
-    rdfs:label "Consistency"@en ;
-    ns1:Description "\"the content of a SRS should be consistent and non-contradictory. This attribute should be valid in the level of detail, style of requirement statements, and in the presentation of material [4]. Some authors use the concepts of internal and external consistency. On one hand, there is an internal consistency of a SRS if and only if no subset of individual requirements stated therein conflict. On the other hand, an external consistency exists if and only if there are no requirement conflicts with any other baseline project documentation [25]."@en ;
+ns1:E04_E a owl:ObjectProperty,
+        owl:SymmetricProperty,
+        owl:TransitiveProperty ;
+    rdfs:label "isEquivalent" ;
+    rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[Bel12]_Q13_> ;
+    rdfs:range <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[BBG+06]_Q127_Me> .
+
+ns1:E04_K a owl:ObjectProperty,
+        owl:SymmetricProperty,
+        owl:TransitiveProperty ;
+    rdfs:label "isEquivalent" ;
+    rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[DOJ+93]_Q82_Me> ;
+    rdfs:range <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[BBG+06]_Q126_S> .
+
+ns1:E04_L a owl:ObjectProperty,
+        owl:SymmetricProperty,
+        owl:TransitiveProperty ;
+    rdfs:label "isEquivalent" ;
+    rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[DOJ+93]_Q82_Me> ;
+    rdfs:range <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[BBG+06]_Q127_Me> .
+
+ns1:E04_R a owl:ObjectProperty,
+        owl:SymmetricProperty,
+        owl:TransitiveProperty ;
+    rdfs:label "isEquivalent" ;
+    rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[ISO/IEC/IEEE29148:2018]_Q114_Me> ;
+    rdfs:range <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[BBG+06]_Q126_S> .
+
+ns1:E04_S a owl:ObjectProperty,
+        owl:SymmetricProperty,
+        owl:TransitiveProperty ;
+    rdfs:label "isEquivalent" ;
+    rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[ISO/IEC/IEEE29148:2018]_Q114_Me> ;
+    rdfs:range <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[BBG+06]_Q127_Me> .
+
+ns1:E05_AG a owl:ObjectProperty,
+        owl:SymmetricProperty,
+        owl:TransitiveProperty ;
+    rdfs:label "isEquivalent" ;
+    rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[Hal93]_Q118_A> ;
+    rdfs:range <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[BBG+06]_Q130_Me> .
+
+ns1:E05_AK a owl:ObjectProperty,
+        owl:SymmetricProperty,
+        owl:TransitiveProperty ;
+    rdfs:label "isEquivalent" ;
+    rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[BBG+06]_Q130_Me> ;
+    rdfs:range <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[DOJ+93]_Q84_Me> .
+
+ns1:E05_AL a owl:ObjectProperty,
+        owl:SymmetricProperty,
+        owl:TransitiveProperty ;
+    rdfs:label "isEquivalent" ;
+    rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[BBG+06]_Q130_Me> ;
+    rdfs:range <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[ISO/IEC/IEEE29148:2018]_Q112_Me> .
+
+ns1:E05_AM a owl:ObjectProperty,
+        owl:SymmetricProperty,
+        owl:TransitiveProperty ;
+    rdfs:label "isEquivalent" ;
+    rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[BBG+06]_Q130_Me> ;
+    rdfs:range <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[TA15]_Q71_Me> .
+
+ns1:E05_AN a owl:ObjectProperty,
+        owl:SymmetricProperty,
+        owl:TransitiveProperty ;
+    rdfs:label "isEquivalent" ;
+    rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[BBG+06]_Q130_Me> ;
+    rdfs:range <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[Hal93]_Q118_A> .
+
+ns1:E05_AP a owl:ObjectProperty,
+        owl:SymmetricProperty,
+        owl:TransitiveProperty ;
+    rdfs:label "isEquivalent" ;
+    rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[BBG+06]_Q130_Me> ;
+    rdfs:range <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[Gli20]_Q149_> .
+
+ns1:E05_BC a owl:ObjectProperty,
+        owl:SymmetricProperty,
+        owl:TransitiveProperty ;
+    rdfs:label "isEquivalent" ;
+    rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[Gli20]_Q149_> ;
+    rdfs:range <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[BBG+06]_Q130_Me> .
+
+ns1:E05_L a owl:ObjectProperty,
+        owl:SymmetricProperty,
+        owl:TransitiveProperty ;
+    rdfs:label "isEquivalent" ;
+    rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[DOJ+93]_Q84_Me> ;
+    rdfs:range <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[BBG+06]_Q130_Me> .
+
+ns1:E05_S a owl:ObjectProperty,
+        owl:SymmetricProperty,
+        owl:TransitiveProperty ;
+    rdfs:label "isEquivalent" ;
+    rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[ISO/IEC/IEEE29148:2018]_Q112_Me> ;
+    rdfs:range <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[BBG+06]_Q130_Me> .
+
+ns1:E05_Z a owl:ObjectProperty,
+        owl:SymmetricProperty,
+        owl:TransitiveProperty ;
+    rdfs:label "isEquivalent" ;
+    rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[TA15]_Q71_Me> ;
+    rdfs:range <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[BBG+06]_Q130_Me> .
+
+ns1:E11_A a owl:ObjectProperty,
+        owl:SymmetricProperty,
+        owl:TransitiveProperty ;
+    rdfs:label "isEquivalent" ;
+    rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[ECSS-Q-HB-80-04C]_Q07_C> ;
+    rdfs:range <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[BBG+06]_Q129_Me> .
+
+ns1:E11_AQ a owl:ObjectProperty,
+        owl:SymmetricProperty,
+        owl:TransitiveProperty ;
+    rdfs:label "isEquivalent" ;
+    rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[DOJ+93]_Q83_Me> ;
+    rdfs:range <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[BBG+06]_Q129_Me> .
+
+ns1:E11_AU a owl:ObjectProperty,
+        owl:SymmetricProperty,
+        owl:TransitiveProperty ;
+    rdfs:label "isEquivalent" ;
+    rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[TA15]_Q57_S> ;
+    rdfs:range <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[BBG+06]_Q129_Me> .
+
+ns1:E11_B a owl:ObjectProperty,
+        owl:SymmetricProperty,
+        owl:TransitiveProperty ;
+    rdfs:label "isEquivalent" ;
+    rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[BBG+06]_Q129_Me> ;
+    rdfs:range <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[ECSS-Q-HB-80-04C]_Q07_C> .
+
+ns1:E11_BI a owl:ObjectProperty,
+        owl:SymmetricProperty,
+        owl:TransitiveProperty ;
+    rdfs:label "isEquivalent" ;
+    rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[BBG+06]_Q129_Me> ;
+    rdfs:range <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[DOJ+93]_Q83_Me> .
+
+ns1:E11_BL a owl:ObjectProperty,
+        owl:SymmetricProperty,
+        owl:TransitiveProperty ;
+    rdfs:label "isEquivalent" ;
+    rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[BBG+06]_Q129_Me> ;
+    rdfs:range <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[TA15]_Q57_S> .
+
+<http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[BBG+06]_Q126_S_B> a owl:ObjectProperty ;
+    rdfs:label "refines"@en ;
+    rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[BBG+06]_Q126_S> ;
+    rdfs:range <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[BBG+06]_Q127_Me> .
+
+<http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[BBG+06]_Q126_S_C> a owl:ObjectProperty ;
+    rdfs:label "refines"@en ;
+    rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[BBG+06]_Q126_S> ;
+    rdfs:range <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[BBG+06]_Q128_Me> .
+
+<http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[BBG+06]_Q126_S_D> a owl:ObjectProperty ;
+    rdfs:label "refines"@en ;
+    rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[BBG+06]_Q126_S> ;
+    rdfs:range <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[BBG+06]_Q129_Me> .
+
+<http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[BBG+06]_Q127_Me_A> rdfs:label "hasPurpose"@en ;
+    rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[BBG+06]_Q127_Me> ;
+    rdfs:range ns1:Measure .
+
+<http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[BBG+06]_Q128_Me_A> rdfs:label ""@en,
+        "hasPurpose"@en ;
+    rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[BBG+06]_Q128_Me> ;
+    rdfs:range ns1:Measure .
+
+<http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[BBG+06]_Q129_Me_A> rdfs:label "hasPurpose"@en ;
+    rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[BBG+06]_Q129_Me> ;
+    rdfs:range ns1:Measure .
+
+<http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[BBG+06]_Q130_Me_A> rdfs:label "hasPurpose"@en ;
+    rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[BBG+06]_Q130_Me> ;
+    rdfs:range ns1:Measure .
+
+<http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[BBG+06]_Q131_Me_A> rdfs:label "hasPurpose"@en ;
+    rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[BBG+06]_Q131_Me> ;
+    rdfs:range ns1:Measure .
+
+<http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[BBG+06]_Q132_Me_A> rdfs:label "hasPurpose"@en ;
+    rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[BBG+06]_Q132_Me> ;
+    rdfs:range ns1:Measure .
+
+<http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[Bel12]_Q10_M_A> rdfs:label "hasPurpose" ;
+    rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[Bel12]_Q10_> ;
+    rdfs:range ns1:Measure .
+
+<http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[Bel12]_Q11_M_A> rdfs:label "hasPurpose" ;
+    rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[Bel12]_Q11_> ;
+    rdfs:range ns1:Measure .
+
+<http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[Bel12]_Q12_M_A> rdfs:label "hasPurpose" ;
+    rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[Bel12]_Q12_> ;
+    rdfs:range ns1:Measure .
+
+<http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[Bel12]_Q13_M_A> rdfs:label "hasPurpose" ;
+    rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[Bel12]_Q13_> ;
+    rdfs:range ns1:Measure .
+
+<http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[DOJ+93]_Q79_Me_A> rdfs:label "hasPurpose"@en ;
+    rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[DOJ+93]_Q79_Me> ;
+    rdfs:range ns1:Measure .
+
+<http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[DOJ+93]_Q80_Me_A> rdfs:label "hasPurpose"@en ;
+    rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[DOJ+93]_Q80_Me> ;
+    rdfs:range ns1:Measure .
+
+<http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[DOJ+93]_Q81_Me_A> rdfs:label "hasPurpose"@en ;
+    rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[DOJ+93]_Q81_Me> ;
+    rdfs:range ns1:Measure .
+
+<http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[DOJ+93]_Q82_Me_A> rdfs:label "hasPurpose"@en ;
+    rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[DOJ+93]_Q82_Me> ;
+    rdfs:range ns1:Measure .
+
+<http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[DOJ+93]_Q83_Me_A> rdfs:label "hasPurpose"@en ;
+    rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[DOJ+93]_Q83_Me> ;
+    rdfs:range ns1:Measure .
+
+<http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[DOJ+93]_Q84_Me_A> rdfs:label "hasPurpose"@en ;
+    rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[DOJ+93]_Q84_Me> ;
+    rdfs:range ns1:Measure .
+
+<http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[ECSS-Q-HB-80-04C]_Q02_C_A> rdfs:label "hasPurpose"@en ;
+    rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[ECSS-Q-HB-80-04C]_Q02_C> ;
+    rdfs:range ns1:Control .
+
+<http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[ECSS-Q-HB-80-04C]_Q07_C_A> rdfs:label "hasPurpose"@en ;
+    rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[ECSS-Q-HB-80-04C]_Q07_C> ;
+    rdfs:range ns1:Control .
+
+<http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[Hal93]_Q118_A_A> rdfs:label "hasPurpose"@en ;
+    rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[Hal93]_Q118_A> ;
+    rdfs:range ns1:Assess .
+
+<http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[ISO/IEC/IEEE29148:2018]_Q111_Me_A> rdfs:label "hasPurpose"@en ;
+    rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[ISO/IEC/IEEE29148:2018]_Q111_Me> ;
+    rdfs:range ns1:Measure .
+
+<http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[ISO/IEC/IEEE29148:2018]_Q112_Me_A> rdfs:label "hasPurpose"@en ;
+    rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[ISO/IEC/IEEE29148:2018]_Q112_Me> ;
+    rdfs:range ns1:Measure .
+
+<http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[ISO/IEC/IEEE29148:2018]_Q114_Me_A> rdfs:label "hasPurpose"@en ;
+    rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[ISO/IEC/IEEE29148:2018]_Q114_Me> ;
+    rdfs:range ns1:Measure .
+
+<http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[TA15]_Q52_Me_A> rdfs:label "hasPurpose" ;
+    rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[TA15]_Q52_Me> ;
+    rdfs:range ns1:Measure .
+
+<http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[TA15]_Q62_Me_A> rdfs:label "hasPurpose"@en ;
+    rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[TA15]_Q62_Me> ;
+    rdfs:range ns1:Measure .
+
+<http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[TA15]_Q71_Me_A> rdfs:label "hasPurpose"@en ;
+    rdfs:domain <http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[TA15]_Q71_Me> ;
+    rdfs:range ns1:Measure .
+
+<http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[Gli20]_Q149_> a owl:Class ;
+    rdfs:label "Consistent" ;
+    ns1:Citation "[GLSB20]"@en ;
+    ns1:Definition "Multiple requirements: \"no two requirements, recorded in a single work product or in different work products, contradict each other.\"" ;
     ns1:EmpiricalEvidence false ;
-    ns1:LingusticComplexity "Pragmatic" ;
-    ns1:PractitionersInvolved false ;
-    ns1:Scope "Document" ;
-    ns1:Source "[Bel12]"@en ;
-    ns1:Viewpoint "All people involved in the requirement specification process (on a people, organizational and technological dimension)" ;
-    rdfs:subClassOf ns1:Construct .
+    ns1:LinguisticComplexity "Pragmatic" ;
+    ns1:PractitionersInvolved true ;
+    ns1:Scope "Section" ;
+    rdfs:subClassOf ns1:QualityAttribute .
 
-<http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[BBG+06]_Q126_S> a owl:Class ;
+<http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[Gli20]_Q151_> a owl:Class ;
+    rdfs:label "Complete" ;
+    ns1:Citation "[GLSB20]"@en ;
+    ns1:Definition "Multiple requirements: \"the work product contains all relevant requirements (functional requirements, quality requirements, and constraints) that are known at this point in time and that are related to this work product.\"" ;
+    ns1:EmpiricalEvidence false ;
+    ns1:LinguisticComplexity "Pragmatic" ;
+    ns1:PractitionersInvolved false ;
+    ns1:Scope "Section" ;
+    rdfs:subClassOf ns1:QualityAttribute .
+
+<http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[HZ18]_Q135_S> a owl:Class ;
+    rdfs:label "Consistency / Correctness"@en ;
+    ns1:Citation "[HZ18]"@en ;
+    ns1:Context "Agile Requirements Engineering" ;
+    ns1:Definition "\"Consistency and correctness (VC3) indicate those criteria that state something on the quality of an individual feature request (correctness), or on the quality of the link between two or more feature requests (consistency).\""@en ;
+    ns1:EmpiricalEvidence false ;
+    ns1:LinguisticComplexity "Pragmatic" ;
+    ns1:PractitionersInvolved false ;
+    ns1:Scope "Section" ;
+    rdfs:subClassOf ns1:QualityAttribute .
+
+<http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[HZ18]_Q141_> a owl:Class ;
     rdfs:label "Understandability"@en ;
-    ns1:Description "\"the ease by which humans understand the meaning of the natural language requirements specification at hand\""@en ;
+    ns1:Citation "[HZ18]"@en ;
+    ns1:Definition "\"We have used the term Understandability to group several criteria related to the choice of wording for the requirements specification. Defining clear requirements can save a lot of time in discussion and question answering during the implementation. Two papers [DQ10, SS05] mention that this can be achieved with requirements written in the language of the customer. [PR09] states that story cards should ‘‘use language simply, consistently and concisely’’. Two more papers deem it is important to use a consistent and defined terminology throughout all requirements: [D14] and [HZ14]. [HZ14] advocates the use of a glossary for this purpose and also recommends the use of correct language (i.e., spelling- and grammar-wise). In total, five papers mention that it is important for the requirements to be unambiguous in general [D01, FM13, F04, SL09, PR09].\""@en ;
     ns1:EmpiricalEvidence false ;
-    ns1:LingusticComplexity "Pragmatic" ;
+    ns1:LinguisticComplexity "Pragmatic" ;
     ns1:PractitionersInvolved false ;
     ns1:Scope "Document" ;
-    ns1:Source "[BBG+06]"@en ;
-    rdfs:subClassOf ns1:Construct .
+    rdfs:subClassOf ns1:QualityAttribute .
 
-<http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[BBG+06]_Q127_Me> a owl:Class ;
-    rdfs:label "Readability"@en ;
-    ns1:Description "\"the ability for a human being to read the natural language requirements specification at hand\""@en ;
-    ns1:EmpiricalEvidence false ;
-    ns1:LingusticComplexity "Pragmatic" ;
-    ns1:PractitionersInvolved false ;
-    ns1:Scope "Document" ;
-    ns1:Source "[BBG+06]"@en ;
-    rdfs:subClassOf ns1:Construct .
-
-<http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[BBG+06]_Q128_Me> a owl:Class ;
-    rdfs:label "Uniguity"@en ;
-    ns1:Description "\"the lack of ambiguity in the natural language requirements specification at hand. (We have invented the word “uniguity”, i.e., one meaning, to not have to use the heavy mouthful “nonambiguity”)\""@en ;
-    ns1:EmpiricalEvidence false ;
-    ns1:LingusticComplexity "Pragmatic" ;
-    ns1:PractitionersInvolved false ;
-    ns1:Scope "Document" ;
-    ns1:Source "[BBG+06]"@en ;
-    rdfs:subClassOf ns1:Construct .
-
-<http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[BBG+06]_Q131_Me> a owl:Class ;
-    rdfs:label "Completeness"@en ;
-    ns1:Description "\"the lack of missing information in the natural language requirements specification at hand\""@en ;
-    ns1:EmpiricalEvidence false ;
-    ns1:LingusticComplexity "Pragmatic" ;
-    ns1:PractitionersInvolved false ;
-    ns1:Scope "Document" ;
-    ns1:Source "[BBG+06]"@en ;
-    rdfs:subClassOf ns1:Construct .
-
-<http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[BBG+06]_Q132_Me> a owl:Class ;
-    rdfs:label "Correctness"@en ;
-    ns1:Description "\"(1) the lack of factual errors about the domain of the computer-based system under construction and (2) matching what the customer wants\""@en ;
-    ns1:EmpiricalEvidence false ;
-    ns1:LingusticComplexity "Pragmatic" ;
-    ns1:PractitionersInvolved false ;
-    ns1:Scope "Document" ;
-    ns1:Source "[BBG+06]"@en ;
-    rdfs:subClassOf ns1:Construct .
-
-<http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[DOJ+93]_Q79_Me> a owl:Class ;
+<http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[TA15]_Q56_S> a owl:Class ;
     rdfs:label "Unambiguous"@en ;
-    ns1:Description "\"An SRS is unambiguous if and only if every requirement stated therein has only one possible interpretation [IEE84].\""@en ;
-    ns1:EmpiricalEvidence false ;
-    ns1:LingusticComplexity "Pragmatic" ;
+    ns1:Citation "[TA15]"@en ;
+    ns1:Definition "\"An SRS is unambiguous if, and only if, every requirement stated therein has only one interpretation [7]. It is impossible to completely remove the ambiguity from an SRS written in natural language.\""@en ;
+    ns1:EmpiricalEvidence true ;
+    ns1:LinguisticComplexity "Pragmatic" ;
     ns1:PractitionersInvolved false ;
     ns1:Scope "Document" ;
-    ns1:Source "[DOJ+93]"@en ;
-    rdfs:subClassOf ns1:Construct .
+    rdfs:subClassOf ns1:QualityAttribute .
 
-<http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[DOJ+93]_Q80_Me> a owl:Class ;
+<http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[TA15]_Q57_S> a owl:Class ;
+    rdfs:label "Verifiable"@en ;
+    ns1:Citation "[TA15]"@en ;
+    ns1:Definition "\"An SRS is verifiable if, and only if, every requirement stated therein is verifiable. A requirement is verifiable if, and only if, there exists some finite cost-effective process with which a person or machine can check that the software product meets the requirement. In general, any ambiguous requirement is not verifiable [7]. As IEEE Std. 830-1998 explains, requirements are not verifiable if they are ambiguous.\""@en ;
+    ns1:EmpiricalEvidence true ;
+    ns1:LinguisticComplexity "pragmatic" ;
+    ns1:PractitionersInvolved false ;
+    ns1:Scope "Document" ;
+    rdfs:subClassOf ns1:QualityAttribute .
+
+<http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[TA15]_Q65_S> a owl:Class ;
     rdfs:label "Complete"@en ;
-    ns1:Description "\"An SRS is complete if: Everything that the software is supposed to do is included in the SRS [DAV93]; Responses of the software to all realizable classes of input data in all realizable classes of situations is included [IEE84]; All pages numbered; all figures and tables numbered, named, and referenced, all terms defined, all units of measure provided, and all referenced material present [IEE84]; No sections marked \"To Be Determined\" [DAV93].\""@en ;
-    ns1:EmpiricalEvidence false ;
-    ns1:LingusticComplexity "Pragmatic" ;
+    ns1:Citation "[TA15]"@en ;
+    ns1:Definition "\"An SRS is complete if, and only if, it includes the following elements [7]: All significant requirements, whether relating to functionality, performance, design constraints, attributes, or external interfaces; Definition of the responses of the software to all realizable classes of input data in all realizable situations; Full labels and references to all figures, tables, and diagrams in the SRS and definition of all terms and units of measure;\""@en ;
+    ns1:EmpiricalEvidence true ;
+    ns1:LinguisticComplexity "Pragmatic" ;
     ns1:PractitionersInvolved false ;
     ns1:Scope "Document" ;
-    ns1:Source "[DOJ+93]"@en ;
-    rdfs:subClassOf ns1:Construct .
+    rdfs:subClassOf ns1:QualityAttribute .
 
-<http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[DOJ+93]_Q81_Me> a owl:Class ;
-    rdfs:label "Correct"@en ;
-    ns1:Description "\"An SRS is correct if and only if every requirement represents something required of the system to be built [DAV93], i.e., every requirement in the SRS contributes to the satisfaction of some need.\""@en ;
+<http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[Bel12]_Q10_> a owl:Class ;
+    rdfs:label "Clearness / Unambiguously"@en ;
+    ns1:Citation "[Bel12]"@en ;
+    ns1:Definition "\"If a requirement can only be interpreted in only one way, it may classified as unambiguous [4]. A SRS can be defined as clear or unambiguous if each of its requirements is unambiguous [25]. Yet, this definition doesn´t totally take into account the complexity of the real-world, because the interpretation is a subjective process and because there is a very different range of people involved in the requirement specification process.\""@en ;
     ns1:EmpiricalEvidence false ;
-    ns1:LingusticComplexity "Pragmatic" ;
+    ns1:LinguisticComplexity "Pragmatic" ;
     ns1:PractitionersInvolved false ;
     ns1:Scope "Document" ;
-    ns1:Source "[DOJ+93]"@en ;
-    rdfs:subClassOf ns1:Construct .
+    ns1:Viewpoint "All people involved in the requirement specification process (on a people, organizational and technological dimension)" ;
+    rdfs:subClassOf ns1:QualityAttribute .
 
-<http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[DOJ+93]_Q82_Me> a owl:Class ;
-    rdfs:label "Understandable"@en ;
-    ns1:Description "\"SRS is u ~ s t u n d a b l eif all classes of SRS readers can easily comprehend the meaning of all requirements with a minimum of explanation. Readers include customers, users, project managers (PM), software developers, and testers. In general, the first three desire ease of reading, and thus natural language is ideal. Obviously, if users and customers cannot understand the SRS, they cannot intelligently approve it, leaving success of the product outcome to chance. In general, the last two desire to ascertain precisely what the system is expected to do, and thus formal language is ideal. Obviously, if designers and testers cannot understand the SRS, it is impossible to build or test the system. The burden of creating an understandable SRS falls on the shoulders of the writers; it is not the readers' responsibility to learn everything writers know in order to digest the SRS.\""@en ;
-    ns1:EmpiricalEvidence false ;
-    ns1:LingusticComplexity "Pragmatic" ;
-    ns1:PractitionersInvolved false ;
-    ns1:Scope "Document" ;
-    ns1:Source "[DOJ+93]"@en ;
-    ns1:Viewpoint "Customers, users, project managers (PM), software developers, and testers" ;
-    rdfs:subClassOf ns1:Construct .
-
-<http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[DOJ+93]_Q86_Me> a owl:Class ;
-    rdfs:label "Achievable"@en ;
-    ns1:Description "\"An SRS is uchicvable if and only if there could exist at least one system design and implementation that correctly implements all the requirements stated in the SRS.\""@en ;
-    ns1:EmpiricalEvidence false ;
-    ns1:LingusticComplexity "Pragmatic" ;
-    ns1:PractitionersInvolved false ;
-    ns1:Scope "Document" ;
-    ns1:Source "[DOJ+93]"@en ;
-    rdfs:subClassOf ns1:Construct .
-
-<http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[ECSS-Q-HB-80-04C]_Q02_C> a owl:Class ;
+<http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[Bel12]_Q11_> a owl:Class ;
     rdfs:label "Completeness"@en ;
-    ns1:Description "\"The capability of the software to provide full implementation of the functions required.\" Taken from SPEC."@en ;
+    ns1:Citation "[Bel12]"@en ;
+    ns1:Definition "\"When everything that the software is assumed to carry out is considered it may be said that we are facing a complete SRS [25]. The Institute of Electrical and Electronics Engineers (IEEE) standard 1233 states that a completed SRS should include all customer requirements, as well as those needed for the definition of the system. Moreover, it should have all pages, tables and figures numbered, all terms defined, all units provided and all referenced material present. Finally, it should not have any to be determined (TBD) sections [4].\""@en ;
+    ns1:EmpiricalEvidence false ;
+    ns1:LinguisticComplexity "Pragmatic" ;
+    ns1:PractitionersInvolved false ;
+    ns1:Scope "Document" ;
+    ns1:Viewpoint "All people involved in the requirement specification process (on a people, organizational and technological dimension" ;
+    rdfs:subClassOf ns1:QualityAttribute .
+
+<http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[Bel12]_Q12_> a owl:Class ;
+    rdfs:label "Correctness"@en ;
+    ns1:Citation "[Bel12]"@en ;
+    ns1:Definition "\"Correctness is typically one of the most referenced attributes of a good SRS. A SRS is normally classified as correct when every requirement contributes to the satisfaction of some need[25]. Despite knowing that perfection is a goal that is usually not fully attainable, it does not mean that it should not be attempted. Whenever things are detected as incorrect, the specification should be kept updated [27]. Although IEEE standard 1233 do not explicitly talk about a correctness attribute, it underlines the importance of repeating the process of correcting the initial requirements errors or to add new requirements to enhance the systems features [4].\""@en ;
+    ns1:EmpiricalEvidence false ;
+    ns1:LinguisticComplexity "Pragmatic" ;
+    ns1:Scope "Document" ;
+    ns1:Viewpoint "All people involved in the requirement specification process (on a people, organizational and technological dimension)" ;
+    rdfs:comment false ;
+    rdfs:subClassOf ns1:QualityAttribute .
+
+<http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[DOJ+93]_Q79_Me> a owl:Class ;
+    rdfs:label "Unambiguous"@en ;
+    ns1:Citation "[DOJ+93]"@en ;
+    ns1:Definition "\"An SRS is unambiguous if and only if every requirement stated therein has only one possible interpretation [IEE84].\""@en ;
+    ns1:EmpiricalEvidence false ;
+    ns1:LinguisticComplexity "Pragmatic" ;
+    ns1:PractitionersInvolved false ;
+    ns1:Scope "Document" ;
+    rdfs:subClassOf ns1:QualityAttribute .
+
+<http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[DOJ+93]_Q80_Me> a owl:Class ;
+    rdfs:label "Complete"@en ;
+    ns1:Citation "[DOJ+93]"@en ;
+    ns1:Definition "\"An SRS is complete if: Everything that the software is supposed to do is included in the SRS [DAV93]; Responses of the software to all realizable classes of input data in all realizable classes of situations is included [IEE84]; All pages numbered; all figures and tables numbered, named, and referenced, all terms defined, all units of measure provided, and all referenced material present [IEE84]; No sections marked \"To Be Determined\" [DAV93].\""@en ;
+    ns1:EmpiricalEvidence false ;
+    ns1:LinguisticComplexity "Pragmatic" ;
+    ns1:PractitionersInvolved false ;
+    ns1:Scope "Document" ;
+    rdfs:subClassOf ns1:QualityAttribute .
+
+<http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[DOJ+93]_Q81_Me> a owl:Class ;
+    rdfs:label "Correct"@en ;
+    ns1:Citation "[DOJ+93]"@en ;
+    ns1:Definition "\"An SRS is correct if and only if every requirement represents something required of the system to be built [DAV93], i.e., every requirement in the SRS contributes to the satisfaction of some need.\""@en ;
+    ns1:EmpiricalEvidence false ;
+    ns1:LinguisticComplexity "Pragmatic" ;
+    ns1:PractitionersInvolved false ;
+    ns1:Scope "Document" ;
+    rdfs:subClassOf ns1:QualityAttribute .
+
+<http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[DOJ+93]_Q83_Me> a owl:Class ;
+    rdfs:label "Verifiable"@en ;
+    ns1:Citation "[DOJ+93]"@en ;
+    ns1:Definition "\"An SRS is verifiable if there exist finite, cost effective techniques that can be used to verify that every requirement stated therein is satisfied by the system as built.\""@en ;
+    ns1:EmpiricalEvidence false ;
+    ns1:LinguisticComplexity "Pragmatic" ;
+    ns1:PractitionersInvolved false ;
+    ns1:Scope "Document" ;
+    rdfs:subClassOf ns1:QualityAttribute .
+
+<http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[DOJ+93]_Q84_Me> a owl:Class ;
+    rdfs:label "Internally Consistent"@en ;
+    ns1:Citation "[DOJ+93]"@en ;
+    ns1:Definition "\"An SRS is internally consistent if and only if no subset of individual requirements stated therein conflict [IEE84].\""@en ;
+    ns1:EmpiricalEvidence false ;
+    ns1:LinguisticComplexity "Document" ;
+    ns1:PractitionersInvolved false ;
+    ns1:Scope "Document" ;
+    rdfs:subClassOf ns1:QualityAttribute .
+
+<http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[ECSS-Q-HB-80-04C]_Q02_C> a owl:Class ;
+    rdfs:label "Completeness"@en ;
+    ns1:Citation "[ECSS-Q-HB-80-04C]"@en ;
+    ns1:Definition "\"The capability of the software to provide full implementation of the functions required.\" Taken from SPEC."@en ;
     ns1:EmpiricalEvidence false ;
     ns1:PractitionersInvolved true ;
-    ns1:Source "[ECSS-Q-HB-80-04C]"@en ;
     ns1:Viewpoint "Development team, SW Product Assurance manager, V&V team." ;
-    rdfs:subClassOf ns1:Construct .
+    rdfs:subClassOf ns1:QualityAttribute .
 
-<http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[Gli20]_Q151_> a owl:Class ;
-    rdfs:label "Complete" ;
-    ns1:Description "Multiple requirements: \"the work product contains all relevant requirements (functional requirements, quality requirements, and constraints) that are known at this point in time and that are related to this work product.\"" ;
+<http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[ECSS-Q-HB-80-04C]_Q07_C> a owl:Class ;
+    rdfs:label "Testability"@en ;
+    ns1:Citation "[ECSS-Q-HB-80-04C]"@en ;
+    ns1:Context "SW V&V Process" ;
+    ns1:Definition "\"Extent to which an objective and feasible test can be designed to determine whether a requirement is met.\" Taken from ISO 24765."@en ;
     ns1:EmpiricalEvidence false ;
-    ns1:LingusticComplexity "Pragmatic" ;
-    ns1:PractitionersInvolved false ;
-    ns1:Scope "Section" ;
-    ns1:Source "[GLSB20]"@en ;
-    rdfs:subClassOf ns1:Construct .
-
-<http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[HZ18]_Q135_S> a owl:Class ;
-    rdfs:label "Consistency / Correctness"@en ;
-    ns1:Context "Agile Requirements Engineering" ;
-    ns1:Description "\"Consistency and correctness (VC3) indicate those criteria that state something on the quality of an individual feature request (correctness), or on the quality of the link between two or more feature requests (consistency).\""@en ;
-    ns1:EmpiricalEvidence false ;
-    ns1:LingusticComplexity "Pragmatic" ;
-    ns1:PractitionersInvolved false ;
-    ns1:Scope "Section" ;
-    ns1:Source "[HZ18]"@en ;
-    rdfs:subClassOf ns1:Construct .
-
-<http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[HZ18]_Q141_> a owl:Class ;
-    rdfs:label "Understandability"@en ;
-    ns1:Description "\"We have used the term Understandability to group several criteria related to the choice of wording for the requirements specification. Defining clear requirements can save a lot of time in discussion and question answering during the implementation. Two papers [DQ10, SS05] mention that this can be achieved with requirements written in the language of the customer. [PR09] states that story cards should ‘‘use language simply, consistently and concisely’’. Two more papers deem it is important to use a consistent and defined terminology throughout all requirements: [D14] and [HZ14]. [HZ14] advocates the use of a glossary for this purpose and also recommends the use of correct language (i.e., spelling- and grammar-wise). In total, five papers mention that it is important for the requirements to be unambiguous in general [D01, FM13, F04, SL09, PR09].\""@en ;
-    ns1:EmpiricalEvidence false ;
-    ns1:LingusticComplexity "Pragmatic" ;
-    ns1:PractitionersInvolved false ;
+    ns1:LinguisticComplexity "Pragmatic" ;
+    ns1:PractitionersInvolved true ;
     ns1:Scope "Document" ;
-    ns1:Source "[HZ18]"@en ;
-    rdfs:subClassOf ns1:Construct .
+    ns1:Viewpoint "Development team, SW Product Assurance manager, V&V team." ;
+    rdfs:subClassOf ns1:QualityAttribute .
 
-<http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[ISO/IEC/IEEE29148:2018]_Q111_Me> a owl:Class ;
+<http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[Hal93]_Q118_A> a owl:Class ;
+    rdfs:label "Consistency"@en ;
+    ns1:Citation "[Hal93]"@en ;
+    ns1:Definition "\"Consistency requires that the requirement not be in conflict with any other requirement, nor with any element of its own structure.\""@en ;
+    ns1:EmpiricalEvidence false ;
+    ns1:LinguisticComplexity "Pragmatic" ;
+    ns1:PractitionersInvolved false ;
+    ns1:Scope "Section" ;
+    rdfs:subClassOf ns1:QualityAttribute .
+
+<http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[ISO/IEC/IEEE29148:2018]_Q111_Me> a owl:Class ;
     rdfs:label "Complete"@en ;
-    ns1:Description """"The set of requirements stands alone such that it sufficiently describes the necessary capabilities, characteristics, constraints or quality factors to meet entity needs without needing further information. In addition, the set does not contain any To Be Defined (TBD), To Be Specified (TBS), or To Be Resolved (TBR) clauses. Resolution of the TBx designations may be iterative and there is an acceptable timeframe for TBx items, determined by risks and dependencies. To improve completeness, the following practices can be adopted:
+    ns1:Citation "[ISO/IEC/IEEE29148:2018]"@en ;
+    ns1:Definition """"The set of requirements stands alone such that it sufficiently describes the necessary capabilities, characteristics, constraints or quality factors to meet entity needs without needing further information. In addition, the set does not contain any To Be Defined (TBD), To Be Specified (TBS), or To Be Resolved (TBR) clauses. Resolution of the TBx designations may be iterative and there is an acceptable timeframe for TBx items, determined by risks and dependencies. To improve completeness, the following practices can be adopted:
 i) include all requirements types relevant to the system under consideration;
 ii) account for requirements in all stages of the life cycle; and
 iii) involve all stakeholders in the requirements elicitation, capture, and analysis activity.\""""@en ;
     ns1:EmpiricalEvidence false ;
-    ns1:LingusticComplexity "Pragmatic" ;
+    ns1:LinguisticComplexity "Pragmatic" ;
     ns1:PractitionersInvolved true ;
     ns1:Scope "Section" ;
-    ns1:Source "[ISO/IEC/IEEE29148:2018]"@en ;
     ns1:Viewpoint "All stakeholders" ;
-    rdfs:subClassOf ns1:Construct .
+    rdfs:subClassOf ns1:QualityAttribute .
 
-<http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[ISO/IEC/IEEE29148:2018]_Q113_Me> a owl:Class ;
-    rdfs:label "Feasible"@en ;
-    ns1:Description "\"The complete set of requirements can be realized within entity constraints (e.g., cost, schedule, technical) with acceptable risk.\""@en ;
+<http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[ISO/IEC/IEEE29148:2018]_Q112_Me> a owl:Class ;
+    rdfs:label "Consistent"@en ;
+    ns1:Citation "[ISO/IEC/IEEE29148:2018]"@en ;
+    ns1:Definition "\"The set of requirements contains individual requirements that are unique, do not conflict with or overlap with other requirements in the set, and the units and measurement systems are homogeneous. The terminology used within the set of requirements is consistent, i.e. the same term is used throughout the set to mean the same thing.\""@en ;
     ns1:EmpiricalEvidence false ;
-    ns1:LingusticComplexity "Prgamatic" ;
-    ns1:PractitionersInvolved true ;
-    ns1:Scope "Document" ;
-    ns1:Source "[ISO/IEC/IEEE29148:2018]"@en ;
-    rdfs:subClassOf ns1:Construct .
-
-<http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[ISO/IEC/IEEE29148:2018]_Q114_Me> a owl:Class ;
-    rdfs:label "Comprehensible"@en ;
-    ns1:Description "\"The set of requirements is written such that it is clear as to what is expected by the entity and its relation to the system of which it is a part.\""@en ;
-    ns1:EmpiricalEvidence false ;
-    ns1:LingusticComplexity "Pragmatic" ;
+    ns1:LinguisticComplexity "Pragmatic" ;
     ns1:PractitionersInvolved true ;
     ns1:Scope "Section" ;
-    ns1:Source "[ISO/IEC/IEEE29148:2018]"@en ;
-    rdfs:subClassOf ns1:Construct .
+    rdfs:subClassOf ns1:QualityAttribute .
 
-<http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[ISO/IEC/IEEE29148:2018]_Q115_Me> a owl:Class ;
-    rdfs:label "Able to be validated" ;
-    ns1:Description "\"It is practicable that satisfaction of the requirement set will lead to the achievement of the entity needs within constraints (e.g., cost, schedule, technical, legal and regulatory compliance).\"" ;
-    ns1:EmpiricalEvidence false ;
-    ns1:LingusticComplexity "Pragmatic" ;
-    ns1:PractitionersInvolved true ;
-    ns1:Scope "Section" ;
-    ns1:Source "[ISO/IEC/IEEE29148:2018]"@en ;
-    rdfs:subClassOf ns1:Construct .
-
-<http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[TA15]_Q52_Me> a owl:Class ;
+<http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[TA15]_Q52_Me> a owl:Class ;
     rdfs:label "Correct"@en ;
-    ns1:Description "\"An SRS is correct if, and only if, every requirement stated therein is one that the software shall meet [7].\""@en ;
+    ns1:Citation "[TA15]"@en ;
+    ns1:Definition "\"An SRS is correct if, and only if, every requirement stated therein is one that the software shall meet [7].\""@en ;
     ns1:EmpiricalEvidence true ;
-    ns1:LingusticComplexity "Pragmatic" ;
+    ns1:LinguisticComplexity "Pragmatic" ;
     ns1:PractitionersInvolved false ;
     ns1:Scope "Document" ;
-    ns1:Source "[TA15]"@en ;
     ns1:Viewpoint "Internal Inspector with Project and Domain Knowledge" ;
-    rdfs:subClassOf ns1:Construct .
+    rdfs:subClassOf ns1:QualityAttribute .
 
-<http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[TA15]_Q56_S> a owl:Class ;
-    rdfs:label "Unambiguous"@en ;
-    ns1:Description "\"An SRS is unambiguous if, and only if, every requirement stated therein has only one interpretation [7]. It is impossible to completely remove the ambiguity from an SRS written in natural language.\""@en ;
-    ns1:EmpiricalEvidence true ;
-    ns1:LingusticComplexity "Pragmatic" ;
-    ns1:PractitionersInvolved false ;
-    ns1:Scope "Document" ;
-    ns1:Source "[TA15]"@en ;
-    rdfs:subClassOf ns1:Construct .
-
-<http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[TA15]_Q62_Me> a owl:Class ;
+<http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[TA15]_Q62_Me> a owl:Class ;
     rdfs:label "Freedom from ambiguity"@en ;
+    ns1:Citation "[TA15]"@en ;
     ns1:EmpiricalEvidence true ;
     ns1:PractitionersInvolved false ;
-    ns1:Source "[TA15]"@en ;
     ns1:Viewpoint "Defined Viewpoints in the SRS / Thrid-Party Inspector" ;
-    rdfs:subClassOf ns1:Construct .
+    rdfs:subClassOf ns1:QualityAttribute .
 
-<http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[TA15]_Q65_S> a owl:Class ;
-    rdfs:label "Complete"@en ;
-    ns1:Description "\"An SRS is complete if, and only if, it includes the following elements [7]: All significant requirements, whether relating to functionality, performance, design constraints, attributes, or external interfaces; Definition of the responses of the software to all realizable classes of input data in all realizable situations; Full labels and references to all figures, tables, and diagrams in the SRS and definition of all terms and units of measure;\""@en ;
+<http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[TA15]_Q71_Me> a owl:Class ;
+    rdfs:label "Consistent"@en ;
+    ns1:Citation "[TA15]"@en ;
+    ns1:Definition "\"An SRS is internally consistent if, and only if, no subset of individual requirements described in it conflict [7]. It is virtually impossible for third-party inspectors without domain knowledge to find inconsistencies in an SRS written in a natural language. Therefore, we do not derive new quality characteristics from this quality characteristic. We simply assign this quality characteristic to the second-stage inspection by the project.\""@en ;
     ns1:EmpiricalEvidence true ;
-    ns1:LingusticComplexity "Pragmatic" ;
+    ns1:LinguisticComplexity "Pragmatic" ;
     ns1:PractitionersInvolved false ;
     ns1:Scope "Document" ;
-    ns1:Source "[TA15]"@en ;
-    rdfs:subClassOf ns1:Construct .
-
-<http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[TA15]_Q78_Me> a owl:Class ;
-    rdfs:label "Achievable"@en ;
-    ns1:Description "\"An SRS is achievable if and only if there could exist at least one system design and implementation that correctly implements all the requirements stated in the SRS [3]. It is virtually impossible for third-party inspectors without domain knowledge to conclude if there could exist at least one possible system design.\""@en ;
-    ns1:EmpiricalEvidence true ;
-    ns1:LingusticComplexity "Pragmatic" ;
-    ns1:PractitionersInvolved false ;
-    ns1:Scope "Document" ;
-    ns1:Source "[TA15]"@en ;
     ns1:Viewpoint "Internal Inspector with Project and Domain Knowledge" ;
-    rdfs:subClassOf ns1:Construct .
+    rdfs:subClassOf ns1:QualityAttribute .
 
-<http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[Bel12]_Q14_> a owl:Class ;
-    rdfs:label "Verifiability and Validity"@en ;
-    ns1:Description "\"A verifiable SRS must have available techniques, at an acceptable cost, used to verify that every specified requirement are satisfied by the system when built [25]. IEEE 1233 standard uses the attribute \"validatable\" to characterize requirements that have the means to prove that the system satisfies it [4]. Usually these two concepts are closely linked. Verifiability wants to ensure that system \"do the thing right” while validity wants to ensure that system \"do the right thing”.\""@en ;
-    ns1:EmpiricalEvidence false ;
-    ns1:LingusticComplexity "Pragmatic" ;
-    ns1:PractitionersInvolved false ;
-    ns1:Scope "Document" ;
-    ns1:Source "[Bel12]"@en ;
-    ns1:Viewpoint "All people involved in the V&V process (on a people, organizational and technological dimension)" ;
-    rdfs:subClassOf ns1:Construct .
-
-<http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[Bel12]_Q16_> a owl:Class ;
-    rdfs:label "Feasibility"@en ;
-    ns1:Description "\"feasibility is usually considered an extremely important requirement attribute as well. A SRS is consider feasible if all its requirements can be implemented with the available technology, human resources and budget. On the other hand, when including a requirement in the system project, it means the requirement is worthy to be included because it contributes positively to the return of that investment [20]. Feasibility evaluation depends on the present state of technology (e.g., commercially available components or new development), the customers environment (e.g., readiness or acceptance to change), and the risk or cost associated with each requirement [4].\""@en ;
-    ns1:EmpiricalEvidence false ;
-    ns1:LingusticComplexity "Pragmatic" ;
-    ns1:PractitionersInvolved false ;
-    ns1:Scope "Document" ;
-    ns1:Source "[Bel12]"@en ;
-    ns1:Viewpoint "All people involved in the requirement specification process (on a people, organizational and technological dimension)" ;
-    rdfs:subClassOf ns1:Construct .
-
-<http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[Bel12]_Q10_> a owl:Class ;
-    rdfs:label "Clearness / Unambiguously"@en ;
-    ns1:Description "\"If a requirement can only be interpreted in only one way, it may classified as unambiguous [4]. A SRS can be defined as clear or unambiguous if each of its requirements is unambiguous [25]. Yet, this definition doesn´t totally take into account the complexity of the real-world, because the interpretation is a subjective process and because there is a very different range of people involved in the requirement specification process.\""@en ;
-    ns1:EmpiricalEvidence false ;
-    ns1:LingusticComplexity "Pragmatic" ;
-    ns1:PractitionersInvolved false ;
-    ns1:Scope "Document" ;
-    ns1:Source "[Bel12]"@en ;
-    ns1:Viewpoint "All people involved in the requirement specification process (on a people, organizational and technological dimension)" ;
-    rdfs:subClassOf ns1:Construct .
-
-<http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[Bel12]_Q12_> a owl:Class ;
-    rdfs:label "Correctness"@en ;
-    ns1:Description "\"Correctness is typically one of the most referenced attributes of a good SRS. A SRS is normally classified as correct when every requirement contributes to the satisfaction of some need[25]. Despite knowing that perfection is a goal that is usually not fully attainable, it does not mean that it should not be attempted. Whenever things are detected as incorrect, the specification should be kept updated [27]. Although IEEE standard 1233 do not explicitly talk about a correctness attribute, it underlines the importance of repeating the process of correcting the initial requirements errors or to add new requirements to enhance the systems features [4].\""@en ;
-    ns1:EmpiricalEvidence false ;
-    ns1:LingusticComplexity "Pragmatic" ;
-    ns1:Scope "Document" ;
-    ns1:Source "[Bel12]"@en ;
-    ns1:Viewpoint "All people involved in the requirement specification process (on a people, organizational and technological dimension)" ;
-    rdfs:comment false ;
-    rdfs:subClassOf ns1:Construct .
-
-<http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[Bel12]_Q13_> a owl:Class ;
+<http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[Bel12]_Q13_> a owl:Class ;
     rdfs:label "Understandability"@en ;
-    ns1:Description "\"The understandability of a SRS occurs if all types of SRS readers can easily comprehend the meaning of all requirements with a minimum of explanation [25]. Since SRS readers may be so diverse as customers, users, project managers, programmers, testers or business managers, must be taken a particular attention to the writing of the requirements. The natural language assumes a special importance because the majority of requirements specification are written in that way. The assurance of the readability of requirements includes the usage of simple words/phrases/concepts, the uniform arrangement and relationship, the definition of unique words/symbols/notations and the use of grammatically correct language and symbology [4].\""@en ;
+    ns1:Citation "[Bel12]"@en ;
+    ns1:Definition "\"The understandability of a SRS occurs if all types of SRS readers can easily comprehend the meaning of all requirements with a minimum of explanation [25]. Since SRS readers may be so diverse as customers, users, project managers, programmers, testers or business managers, must be taken a particular attention to the writing of the requirements. The natural language assumes a special importance because the majority of requirements specification are written in that way. The assurance of the readability of requirements includes the usage of simple words/phrases/concepts, the uniform arrangement and relationship, the definition of unique words/symbols/notations and the use of grammatically correct language and symbology [4].\""@en ;
     ns1:EmpiricalEvidence false ;
-    ns1:LingusticComplexity "Pragmatic" ;
+    ns1:LinguisticComplexity "Pragmatic" ;
     ns1:PractitionersInvolved false ;
     ns1:Scope "Document" ;
-    ns1:Source "[Bel12]"@en ;
     ns1:Viewpoint "All people involved in the requirement specification process (on a people, organizational and technological dimension)" ;
-    rdfs:subClassOf ns1:Construct .
+    rdfs:subClassOf ns1:QualityAttribute .
 
-<http://www.semanticweb.org/beyersdo/ontologies/2022/10/SRS_QualityCharacteristics#[Bel12]_Q11_> a owl:Class ;
-    rdfs:label "Completeness"@en ;
-    ns1:Description "\"When everything that the software is assumed to carry out is considered it may be said that we are facing a complete SRS [25]. The Institute of Electrical and Electronics Engineers (IEEE) standard 1233 states that a completed SRS should include all customer requirements, as well as those needed for the definition of the system. Moreover, it should have all pages, tables and figures numbered, all terms defined, all units provided and all referenced material present. Finally, it should not have any to be determined (TBD) sections [4].\""@en ;
+<http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[DOJ+93]_Q82_Me> a owl:Class ;
+    rdfs:label "Understandable"@en ;
+    ns1:Citation "[DOJ+93]"@en ;
+    ns1:Definition "\"SRS is u ~ s t u n d a b l eif all classes of SRS readers can easily comprehend the meaning of all requirements with a minimum of explanation. Readers include customers, users, project managers (PM), software developers, and testers. In general, the first three desire ease of reading, and thus natural language is ideal. Obviously, if users and customers cannot understand the SRS, they cannot intelligently approve it, leaving success of the product outcome to chance. In general, the last two desire to ascertain precisely what the system is expected to do, and thus formal language is ideal. Obviously, if designers and testers cannot understand the SRS, it is impossible to build or test the system. The burden of creating an understandable SRS falls on the shoulders of the writers; it is not the readers' responsibility to learn everything writers know in order to digest the SRS.\""@en ;
     ns1:EmpiricalEvidence false ;
-    ns1:LingusticComplexity "Pragmatic" ;
+    ns1:LinguisticComplexity "Pragmatic" ;
     ns1:PractitionersInvolved false ;
     ns1:Scope "Document" ;
-    ns1:Source "[Bel12]"@en ;
-    ns1:Viewpoint "All people involved in the requirement specification process (on a people, organizational and technological dimension" ;
-    rdfs:subClassOf ns1:Construct .
+    ns1:Viewpoint "Customers, users, project managers (PM), software developers, and testers" ;
+    rdfs:subClassOf ns1:QualityAttribute .
+
+<http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[ISO/IEC/IEEE29148:2018]_Q114_Me> a owl:Class ;
+    rdfs:label "Comprehensible"@en ;
+    ns1:Citation "[ISO/IEC/IEEE29148:2018]"@en ;
+    ns1:Definition "\"The set of requirements is written such that it is clear as to what is expected by the entity and its relation to the system of which it is a part.\""@en ;
+    ns1:EmpiricalEvidence false ;
+    ns1:LinguisticComplexity "Pragmatic" ;
+    ns1:PractitionersInvolved true ;
+    ns1:Scope "Section" ;
+    rdfs:subClassOf ns1:QualityAttribute .
+
+<http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[BBG+06]_Q129_Me> a owl:Class ;
+    rdfs:label "Testability"@en ;
+    ns1:Citation "[BBG+06]"@en ;
+    ns1:Definition "\"the ability to test that a CBS implements what is specified in the natural language requirements specification at hand\""@en ;
+    ns1:EmpiricalEvidence false ;
+    ns1:LinguisticComplexity "Pragmatic" ;
+    ns1:PractitionersInvolved false ;
+    ns1:Scope "Document" ;
+    rdfs:subClassOf ns1:QualityAttribute .
+
+<http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[BBG+06]_Q132_Me> a owl:Class ;
+    rdfs:label "Correctness"@en ;
+    ns1:Citation "[BBG+06]"@en ;
+    ns1:Definition "\"(1) the lack of factual errors about the domain of the computer-based system under construction and (2) matching what the customer wants\""@en ;
+    ns1:EmpiricalEvidence false ;
+    ns1:LinguisticComplexity "Pragmatic" ;
+    ns1:PractitionersInvolved false ;
+    ns1:Scope "Document" ;
+    rdfs:subClassOf ns1:QualityAttribute .
+
+<http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[BBG+06]_Q128_Me> a owl:Class ;
+    rdfs:label "Uniguity"@en ;
+    ns1:Citation "[BBG+06]"@en ;
+    ns1:Definition "\"the lack of ambiguity in the natural language requirements specification at hand. (We have invented the word “uniguity”, i.e., one meaning, to not have to use the heavy mouthful “nonambiguity”)\""@en ;
+    ns1:EmpiricalEvidence false ;
+    ns1:LinguisticComplexity "Pragmatic" ;
+    ns1:PractitionersInvolved false ;
+    ns1:Scope "Document" ;
+    rdfs:subClassOf ns1:QualityAttribute .
+
+<http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[BBG+06]_Q130_Me> a owl:Class ;
+    rdfs:label "Consistency"@en ;
+    ns1:Citation "[BBG+06]"@en ;
+    ns1:Definition "\"the lack of contradictions and incongruities in the natural language requirements specification at hand\""@en ;
+    ns1:EmpiricalEvidence false ;
+    ns1:LinguisticComplexity "Pragmatic" ;
+    ns1:PractitionersInvolved false ;
+    ns1:Scope "Document" ;
+    rdfs:subClassOf ns1:QualityAttribute .
+
+<http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[BBG+06]_Q127_Me> a owl:Class ;
+    rdfs:label "Readability"@en ;
+    ns1:Citation "[BBG+06]"@en ;
+    ns1:Definition "\"the ability for a human being to read the natural language requirements specification at hand\""@en ;
+    ns1:EmpiricalEvidence false ;
+    ns1:LinguisticComplexity "Pragmatic" ;
+    ns1:PractitionersInvolved false ;
+    ns1:Scope "Document" ;
+    rdfs:subClassOf ns1:QualityAttribute .
+
+<http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[BBG+06]_Q126_S> a owl:Class ;
+    rdfs:label "Understandability"@en ;
+    ns1:Citation "[BBG+06]"@en ;
+    ns1:Definition "\"the ease by which humans understand the meaning of the natural language requirements specification at hand\""@en ;
+    ns1:EmpiricalEvidence false ;
+    ns1:LinguisticComplexity "Pragmatic" ;
+    ns1:PractitionersInvolved false ;
+    ns1:Scope "Document" ;
+    rdfs:subClassOf ns1:QualityAttribute .
+
+<http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#[BBG+06]_Q131_Me> a owl:Class ;
+    rdfs:label "Completeness"@en ;
+    ns1:Citation "[BBG+06]"@en ;
+    ns1:Definition "\"the lack of missing information in the natural language requirements specification at hand\""@en ;
+    ns1:EmpiricalEvidence false ;
+    ns1:LinguisticComplexity "Pragmatic" ;
+    ns1:PractitionersInvolved false ;
+    ns1:Scope "Document" ;
+    rdfs:subClassOf ns1:QualityAttribute .
 

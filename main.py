@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request, make_response
-from application.AccessAQM import getAQM, createAQMSubgraphForConsensus, createAQMSubgraphForMeasurement
+from application.AccessAQM import getAQM, createAQMSubgraphForConsensus, createAQMScopeComparision, createAQMSubgraphForMeasurement
 import os
 import shutil
 import time
@@ -113,7 +113,7 @@ def scope_req():
     
     # Source extraction from POST request (note: Sources are in the AlphaBixTex short reference format)
     msgdata = request.form.to_dict().keys()
-    createAQMSubgraphForConsensus(list(msgdata)[0])
+    createAQMScopeComparision(list(msgdata)[0])
     
     # Move generated JSON file containing the subgraph to the data directory 
     source = './YOUR_ONTOLOGY.json' 
