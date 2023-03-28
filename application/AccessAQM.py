@@ -48,25 +48,22 @@ def getAQM(conversion=True):
 def createAQMSubgraphForConsensus(source, conversion=True):
     """
         This function shall enable the analysis of semantic equivalence of one quality model (source) with the others in the AQM.
-        Thereby, different understandings about quality models are aligned resulting in a consensus about quality.
-        If the AQM contains domain standards with regulations on the desired quality, the fulfillment of this regulations can be verified.
-        
         A subgraph of the AQM is needed, containing the requested quality model (source) and quality attributes of other quality models,
         that are aligned via the isEquivalent object property. 
         
         Note: The source needs to be a string representation of the annotation property "Citation" in the AQM (currently in AlphaBixTex format)
     """
     
-    #Load current backup of the AQM and create empty subgraph
+    #Load the current backup of the AQM and create an empty subgraph
     aqm = rdflib.Graph(base="http://www.semanticweb.org/beyersdo/ontologies/2022/10/AQM#")
     aqm.parse(os.path.join(str(os.getcwd()) + "\\application\\static\\data\\AQM.owl"))
 
     subgraph = rdflib.Graph()
     
-    #Iterate through all triples with the annotation property "Citation" having the value of the requested source.
+    #Iterate through all triples with the annotation property "Citation" and having the value of the requested source.
     for s, p, o in aqm.triples((None, ci, rdflib.Literal(source, lang="en"))):
         
-        subgraph.add((s,p,o)) #subgraph now contains all quality attributes of the requested quality model
+        subgraph.add((s,p,o)) #subgraph now contains all quality attributes / variation factors of the requested quality model
         
         #For given quality attribute / variation factor, add properties (e.g. subClassOf or annotations)
         for s1, p1, o1 in aqm.triples((s, None, None)):
